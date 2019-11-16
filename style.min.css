@@ -26,7 +26,7 @@ li{list-style-type:none;display:inline-block}
 .grid-item-three{grid-row:1;grid-column:3}
 .grid-item-four{grid-row:2;grid-column:2}
 .grid-item-five{grid-row:2;grid-column:3}
-.grid-article-five,.grid-article-four,.grid-article-one,.grid-article-three,.grid-article-two{background-size:786px 445px;background-repeat:no-repeat;border-radius:5px}
+.grid-article-five,.grid-article-four,.grid-article-one,.grid-article-three,.grid-article-two{background-size:775px 445px;background-repeat:no-repeat;border-radius:5px;display:flex;margin-top:75px}
 .grid-article-one{background-image:url(images-article/Bitmap-1.png)}
 .grid-article-two{background-image:url(images-article/Bitmap-2.png)}
 .grid-article-three{background-image:url(images-article/Bitmap-3.png)}
@@ -41,5 +41,79 @@ li{list-style-type:none;display:inline-block}
 .border{position:absolute;display:flex;width:726px;height:249px;background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.1);border-radius:5px;margin:315px 25px 0 25px}
 .grid-bold-text{position:absolute;height:28px;display:flex;white-space:pre-line;font-weight:700;font-size:25px;margin:72px 95px 149px 30px}
 .grid-article-date{position:absolute;height:18px;display:flex;font-style:italic;font-size:14px;padding-top:115px;padding-left:29px;color:#666}
-.grid-description-text{font-size:14px;color:#666;padding:147px 85px 30px 29px}
+.grid-description-text{line-height:24px;font-size:14px;color:#666;padding:147px 85px 30px 29px}
 .article-vehicle{position:absolute;display:flex;color:#fff;margin-left:29px;margin-top:30px;border:solid 1px #4a90e2;background-color:#4a90e2;border-radius:3px;height:22px;width:62px;padding:4px 12px 2px;font-size:12px}
+.grid-aside-four,.grid-aside-one,.grid-aside-three,.grid-aside-two{background-size:292px 195px;background-repeat:no-repeat;border-radius:5px;margin-left:73px}
+.grid-aside-one{margin-top:126px}
+.grid-aside-one{background-image:url(images-aside/Bitmap-1.png)}
+.grid-aside-two{background-image:url(images-aside/Bitmap-2.png);display:flex;margin-top:-185px}
+.grid-aside-three{background-image:url(images-aside/Bitmap-3.png);display:flex;margin-top:-490px}
+.grid-aside-four{background-image:url(images-aside/Bitmap-4.png);display:flex;margin-top:-790px}
+.popular-post{position:absolute;width:100px;font-weight:700;font-size:18px;top:768px}
+.aside-vehicle{position:absolute;display:flex;color:#fff;margin-left:20px;margin-top:20px;border:solid 1px #4a90e2;background-color:#4a90e2;border-radius:3px;height:22px;width:62px;padding:4px 12px 2px;font-size:12px}
+.aside-border{height:56px;width:270px;padding-top:215px}
+.aside-history{display:flex;font-weight:700;font-size:20px;color:#000}
+.aside-date{display:flex;font-size:14px;font-style:italic;margin-top:15px;color:#666}
+.instagram-five,.instagram-four,.instagram-one,.instagram-six,.instagram-three,.instagram-two{background-size:130px 130px;background-repeat:no-repeat}
+.instagram-one{background-image:url('images-instagram/Rectangle/ Copy/ 23.png')}
+.instagram-two{background-image:url('images-instagram/Rectangle/ Copy/ 24.png')}
+.instagram-three{background-image:url('images-instagram/Rectangle/ Copy/ 30.png')}
+.instagram-four{background-image:url('images-instagram/Rectangle/ Copy/ 42.png')}
+.instagram-five{background-image:url('images-instagram/Rectangle/ Copy/ 43.png')}
+.instagram-six{background-image:url('images-instagram/Rectangle/ Copy/ 44.png')}
+.instagram-seven{background-image:url('images-instagram/Rectangle/ Copy/ 9.png');background-size:270px 50px}
+.grid-container-instagram{display:grid;grid-template-columns:repeat(2,130px);grid-template-rows:130px 130px 130px 50px;grid-gap:10px;padding-left:76px;margin-top:-1035px}
+.text-instagram{position:relative;bottom:60px;font-weight:700;font-size:18px}
+.instagram-one{grid-column:1;grid-row:1}
+.instagram-two{grid-column:2;grid-row:1}
+.instagram-three{grid-column:1;grid-row:2}
+.instagram-four{grid-column:2;grid-row:2}
+.instagram-five{grid-column:1;grid-row:3}
+.instagram-six{grid-column:2;grid-row:3}
+.instagram-seven{grid-column:1/span 2;grid-row:4}
+.view-instagram{background-image:url('images-instagram/Combined/ Shape/ /(1/).png');background-repeat:no-repeat;background-position-x:74px;background-position-y:17px;font-weight:700;font-size:14px;color:#fff;display:flex;padding-top:17px;padding-left:15px;justify-content:center}
+.business,.experience,.freelance,.lifestyle,.marketing,.modern,.monetize,.money,.nature,.productivity,.sales-page,.sell,.seo,.success,.teamwork,.ux,.wordpress{background:#ebebeb;color:#171717;font-size:14px;border-radius:3px;padding-top:7px;padding-left:16px;padding-right:16px;text-align:center;height:30px;display:flex;margin-top:-1100px}
+.business{width:84px;margin-left:884px}
+.money{width:72px;margin-left:875px}
+.experience{width:100px;margin-left:884px}
+.freelance{width:91px;margin-left:876px}
+.lifestyle{width:82px;margin-left:892px}
+.seo{width:58px;margin-left:882px}
+.wordpress{width:98px;margin-left:884px}
+.marketing{width:93px;margin-left:890px}
+.ux{width:49px;margin-left:892px}
+.success{width:79px;margin-left:872px}
+.nature{width:72px;margin-left:860px}
+.modern{width:79px;margin-left:884px}
+.productivity{width:104px;margin-left:884px}
+.sales-page{width:97px;margin-left:898px}
+.sell{width:53px;margin-left:884px}
+.teamwork{width:95px;margin-left:846px}
+.monetize{width:88px;margin-left:850px}
+.grid-tags-container{width:100%;height:100%;display:grid;grid-template-columns:repeat(3,91px);grid-template-rows:repeat(6,30px);grid-gap:10px}
+.business{grid-column:1;grid-row:1}
+.freelance{grid-column:2;grid-row:1}
+.money{grid-column:3;grid-row:1}
+.experience{grid-column:1;grid-row:2}
+.lifestyle{grid-column:2;grid-row:2}
+.seo{grid-column:3;grid-row:2}
+.wordpress{grid-column:1;grid-row:3}
+.marketing{grid-column:2;grid-row:3}
+.ux{grid-column:3;grid-row:3}
+.modern{grid-column:1;grid-row:4}
+.success{grid-column:2;grid-row:4}
+.nature{grid-column:3;grid-row:4}
+.productivity{grid-column:1;grid-row:5}
+.sales-page{grid-column:2;grid-row:5}
+.sell{grid-column:1;grid-row:6}
+.teamwork{grid-column:2;grid-row:6}
+.monetize{grid-column:3;grid-row:6}
+.tags{position:relative;display:flex;bottom:54px;font-weight:700;font-size:18px;left:-68px}
+.email-news{display:flex;position:relative;font-weight:700;font-size:18px;width:130px;top:-970px;right:-684px}
+.email-sign-up-text{display:flex;position:relative;font-size:14px;color:#666;width:252px;top:-1010px;right:-884px}
+.your-email,.your-name{display:flex;position:relative;width:270px;height:50px;padding-right:15px;background:#fff;border:1px solid #e5e5e5;border-radius:3px;top:-943px;right:-784px}
+.your-email{top:-883px;right:-684px}
+.subscribe{background-image:url('images-instagram/Rectangle/ Copy-background-subscribe.png');background-size:270px 50px;display:flex;position:relative;width:270px;height:50px;font-weight:700;font-size:14px;color:#fff;padding-top:17px;justify-content:center;top:-884px;right:-886px}
+.grid-transition-between-pages{display:grid;width:100%;height:100%;grid-template-columns:repeat(7,40px);grid-template-rows:40px;grid-gap:10px}
+.back,.eighth,.first,.further,.second,.third,.three-dot{font-size:16px;border:1px solid #e5e5e5;box-sizing:border-box;border-radius:3px;display:flex;position:relative;padding-top:10px;justify-content:center;top:50px;right:600px}
+.first{background-color:#000;color:#fff}
