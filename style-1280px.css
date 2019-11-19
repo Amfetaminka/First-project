@@ -60,10 +60,10 @@ li {
 }
 .premium {
   font-family: "Lato";
-  margin-left: 100px;
+  margin-left: -30px;
 }
 .home {
-  margin-left: 472px;
+  margin-left: 702px;
 }
 .grid-item-one {
   background-image: url(../First-project/images-item/Bitmap-1.png);
@@ -137,7 +137,6 @@ li {
   grid-template-columns: repeat(3, 370px);
   grid-template-rows: repeat(2, 265px);
   grid-gap: 30px;
-  padding-left: 370px;
   padding-top: 120px;
   justify-content: center;
 }
@@ -196,7 +195,6 @@ li {
   grid-template-rows: repeat(5, 560px);
   grid-row-gap: 94px;
   grid-column-gap: 20px;
-  padding-left: 390px;
   justify-content: center;
 }
 .grid-article-one {
@@ -691,7 +689,7 @@ li {
   margin-top: 44px;
 }
 .first-image{
-  margin-left: 685px;
+  margin-left: 510px;
 }
 .text-first-image,
 .text-two-image,
@@ -703,7 +701,7 @@ li {
   line-height: 26px;
   width: 178px;
   position: absolute;
-  margin-left: 802px;
+  margin-left: 627px;
   margin-top: 45px;
 }
 .date-first-image,
@@ -715,7 +713,7 @@ li {
   color: #CECECE;
   font-style: italic;
   font-size: 12px;
-  margin-left: 802px;
+  margin-left: 627px;
   margin-top: 110px;
 }
 .text-two-image {
@@ -725,7 +723,7 @@ li {
   margin-top: 230px;
 }
 .two-image {
-  margin-left: 684px;
+  margin-left: 509px;
   margin-top: 160px;
 }
 .text-three-image {
@@ -735,7 +733,7 @@ li {
   margin-top: 350px;
 }
 .three-image {
-  margin-left: 684px;
+  margin-left: 509px;
   margin-top: 280px;
 }
 .recent-posts {
@@ -743,7 +741,7 @@ li {
   font-weight: bold;
   font-size: 20px;
   display: flex;
-  margin-left: 685px;
+  margin-left: 515px;
   margin-top: 64px;
 }
 .short-description,
@@ -755,7 +753,7 @@ li {
   color: #CECECE;
 }
 .short-description {
-  margin-left: 275px;
+  margin-left: 100px;
   color: #FFFFFF;
   margin-top: 5px;
 }
@@ -806,7 +804,7 @@ li {
   font-size: 20px;
   color: #FFFFFF;
   display: flex;
-  margin-left: 1050px;
+  margin-left: 875px;
   margin-top: -50px;
   padding-top: 24px;
 }
@@ -831,7 +829,7 @@ li {
   display: flex;
   position: absolute;
   margin-top: 1135px;
-  left: 1050px;
+  left: 875px;
   right: 0;
   justify-content: center;
 }
@@ -857,7 +855,7 @@ li {
   display: flex;
   position: absolute;
   padding-top: 39px;
-  padding-left: 275px;
+  padding-left: 100px;
   font-weight: normal;
   font-size: 14px;  
   color: #FFFFFF;
@@ -873,7 +871,7 @@ li {
   color: #FFFFFF;
   text-decoration: none;
   margin-top: 39px;
-  margin-left: 520px;
+  margin-left: 320px;
 }
 .home-footer {
  grid-row: 1;
@@ -895,6 +893,43 @@ li {
   grid-row: 1;
   grid-column: 5;
 }
+.grid-item-one:hover .history {
+    text-decoration: underline;
+}
+.grid-item-two:hover .history {
+  text-decoration: underline;
+}
+.grid-item-three:hover .history {
+  text-decoration: underline;
+}
+.grid-item-four:hover .history {
+  text-decoration: underline;
+}
+.grid-item-five:hover .history {
+  text-decoration: underline;
+}
+.business:hover .tags{
+  text-decoration: none;
+}
+.business:hover,
+.freelance:hover,
+.money:hover,
+.experience:hover,
+.lifestyle:hover,
+.seo:hover,
+.wordpress:hover,
+.marketing:hover,
+.ux:hover,
+.modern:hover,
+.success:hover,
+.nature:hover,
+.productivity:hover,
+.sales-page:hover,
+.sell:hover,
+.teamwork:hover,
+.monetize:hover {
+  text-decoration: underline;
+}
 a:hover {
   text-decoration: underline;
 }
@@ -910,9 +945,6 @@ a:active {
   color: #FFFFFF;
   text-decoration: underline;
   background: none;
-}
-.history:hover {
-  text-decoration: underline;
 }
 .grid-article-one:hover .grid-bold-text {
   text-decoration: underline;
@@ -1009,6 +1041,61 @@ a:active {
   background: #5A5A5A;
   border-radius: 3px;
 }
+.back:hover,
+.first:hover,
+.second:hover,
+.third:hover,
+.three-dot:hover,
+.eighth:hover,
+.further:hover {
+  background: #EFEFEF;
+  text-decoration: none;
+  color: #171717;
+}
+.back:active,
+.first:active,
+.second:active,
+.third:active,
+.three-dot:active,
+.eighth:active,
+.further:active {
+  background: #000000;
+  color: #FFFFFF;
+}
+.icon-first:hover,
+.icon-two:hover,
+.icon-three:hover,
+.icon-four:hover,
+.icon-five:hover {
+  background: #777777;
+}
+.icon-first:active,
+.icon-two:active,
+.icon-three:active,
+.icon-four:active,
+.icon-five:active {
+  background: #FFFFFF;
+  background-color: #000000;
+} 
+.three-image:hover .text-three-image {
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+/* .background-hover{ 
+  position: relative;
+  display: flex;
+  opacity: 0;
+  width: 373px;
+  height: 0;
+}
+.background-hover:hover { 
+  background-size: 373px 560px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  opacity: 1;
+  width: 373px;
+  height: 560px;
+} */
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   html {
@@ -1328,7 +1415,7 @@ a:active {
     grid-template-rows: 40px;
     grid-gap: 10px;
     justify-content: center;
-    margin-top: -1600px;
+    margin-top: -1900px;
   }
   .grid-aside {
     display: grid;
@@ -1488,6 +1575,594 @@ a:active {
     padding-left: 15px;
     justify-content: center;
   }
+  .business, .freelance, .money,
+.experience, .lifestyle, .seo,
+.wordpress, .marketing, .ux,
+.modern, .success, .nature,
+.productivity, .sales-page,
+.sell, .teamwork, .monetize {
+  background: #EBEBEB;
+  color: #171717;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  margin-top: -575px;
+}
+.business {
+  width: 84px;
+  margin-left: 884px;
+}
+.money {
+  width: 72px;
+  margin-left: 875px;
+}
+.experience {
+   width: 100px;
+   margin-left: 884px;
+}
+.freelance { 
+  width: 91px;
+  margin-left: 876px;
+}
+.lifestyle {
+  width: 82px;
+  margin-left: 892px;
+}
+.seo {
+  width: 58px;
+  margin-left: 882px;
+}
+.wordpress {
+  width: 98px;
+  margin-left: 884px;
+}
+.marketing {
+  width: 93px;
+  margin-left: 890px;
+}
+.ux {
+  width: 49px;
+  margin-left: 892px;
+}
+.success {
+  width: 79px;
+  margin-left: 872px;
+}
+.nature {
+  width: 72px;
+  margin-left: 860px;
+}
+.modern {
+  width: 79px;
+  margin-left: 884px;
+}
+.productivity {
+  width: 104px;
+  margin-left: 884px;
+}
+.sales-page {
+  width: 97px;
+  margin-left: 898px;
+}
+.sell {
+  margin-top: -535px;
+  width: 53px;
+  margin-left: 684px;
+}
+.teamwork {
+  width: 95px;
+  margin-left: 1050px;
+}
+.monetize {
+  width: 88px;
+  margin-left: 850px;
+}
+.grid-tags-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 91px);
+  grid-template-rows: repeat(6, 30px);
+  grid-gap: 10px;
+  margin-left: -460px;
+}
+.tags {
+  position: relative;
+  display: flex;
+  bottom: 54px;
+  font-weight: bold;
+  font-size: 18px;
+  left: -68px;
+}
+.email-news {
+  display: flex;
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  width: 130px;
+  top: -250px;
+  right: -300px; 
+}
+.email-sign-up-text {
+  display: flex;
+  position: relative;
+  font-size: 14px;
+  color: #666666;
+  width: 376px;
+  top: -260px;
+  right: -500px; 
+}
+.your-name,
+.your-email {
+  display: flex;
+  position: relative;
+  width: 270px;
+  height: 50px;
+  padding-left: 15px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  top: -220px;
+  right: -400px;
+}
+.your-email {
+  top: -160px;
+  right: -300px;
+}
+.subscribe,
+.subscribe-footer {
+  background-image: url(../First-project/images-instagram/Rectangle\ Copy-background-subscribe.png);
+  background-size: 270px 50px;
+  display: flex;
+  position: relative;
+  width: 270px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-top: 17px;
+  justify-content: center;
+  top: -700px;
+  right: -165px;
+}
+.subscribe {
+  top: -160px;
+  right: -504px;
+}
+.back,
+.first,
+.second,
+.third,
+.three-dot,
+.eighth,
+.further {
+  font-size: 16px;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  justify-content: center;
+  text-decoration: none;
+}
+.first {
+  background-color: #000000;
+  color: white;
+}
+.grid-first-footer {
+  width: 100%;
+  height: 795px;
+  position: absolute;
+  background: #171717;
+  left: 0;
+  right: 0;
+  margin-top: -172px;
+}
+.first-image,
+.two-image,
+.three-image {
+  background-size: 95px 95px;
+  display: flex;
+  position: absolute;
+  margin-left: 385px;
+  margin-top: 44px;
+}
+.first-image{
+  margin-left: 510px;
+}
+.text-first-image,
+.text-two-image,
+.text-three-image {
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 26px;
+  width: 178px;
+  position: absolute;
+  margin-left: 627px;
+  margin-top: 45px;
+}
+.date-first-image,
+.date-two-image,
+.date-three-image {
+  display: flex;
+  position: absolute;
+  width: 159px;
+  color: #CECECE;
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 627px;
+  margin-top: 110px;
+}
+.text-two-image {
+  margin-top: 165px;
+}
+.date-two-image {
+  margin-top: 230px;
+}
+.two-image {
+  margin-left: 509px;
+  margin-top: 160px;
+}
+.text-three-image {
+  margin-top: 285px;
+}
+.date-three-image {
+  margin-top: 350px;
+}
+.three-image {
+  margin-left: 509px;
+  margin-top: 280px;
+}
+.recent-posts {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-left: 515px;
+  margin-top: 62px;
+}
+.short-description,
+.description,
+.keep-in-touch {
+  display: flex;
+  position: absolute;
+  font-size: 14px;
+  color: #CECECE;
+}
+.short-description {
+  margin-left: 150px;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+.keep-in-touch {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 120px;
+  margin-top: 160px;
+}
+.description {
+  margin-top: 50px;
+  width: 270px;
+}
+.icon-first,
+.icon-two,
+.icon-three,
+.icon-four,
+.icon-five {
+  background-image: url(../First-project/images-footer-icon/Rectangle.png);
+  background-size: 34px 34px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  margin-top: 210px;
+}
+.icon-first {
+  margin-left: -100px;
+  padding: 10px 7px;
+}
+.icon-two {
+  margin-left: -50px;
+  padding: 8px;
+}
+.icon-three {
+  padding: 10px 9px;
+}
+.icon-four {
+  margin-left: 50px;
+  padding: 8px 11px 10px 11px;
+}
+.icon-five {
+  margin-left: 100px;
+  padding: 8px 10px 10px 10px;
+}
+.newsletter {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 416px;
+  padding-top: 24px;
+}
+.your-name-footer,
+.your-email-footer {
+  padding-left: 15px;
+  display: flex;
+  position: absolute;
+  width: 585px;
+  height: 50px;
+  background: #373737;
+  border: 1px solid #373737;
+  border-radius: 3px;
+}
+.your-name-footer {
+  margin-top: 66px;
+}
+.your-email-footer {
+  margin-top: 126px;
+}
+.subscribe-footer {
+  display: flex;
+  position: absolute;
+  margin-top: 1415px;
+  left: 875px;
+  margin-left: -725px;
+  right: 0;
+  justify-content: center;
+  width: 585px;
+}
+.grid-footer-two {
+  position: absolute;
+  background: #000000;
+  margin-top: 622px;
+  width: 100%;
+  height: 94px;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-template-rows: 50px;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.all-right-reserved {
+  display: flex;
+  position: absolute;
+  padding-top: 39px;
+  margin-left: 150px;
+  font-weight: normal;
+  font-size: 14px;  
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.home-footer,
+.recipes-footer,
+.article-footer,
+.contact-footer,
+.purchase-footer {
+  font-weight: normal;
+  font-size: 14px;  
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 39px;
+  margin-left: 150px;
+}
+.home-footer {
+ grid-row: 1;
+ grid-column: 1;
+}
+.recipes-footer {
+  grid-row: 1;
+  grid-column: 2;
+}
+.article-footer {
+  grid-row: 1;
+  grid-column: 3;
+}
+.contact-footer {
+  grid-row: 1;
+  grid-column: 4;
+}
+.purchase-footer {
+  grid-row: 1;
+  grid-column: 5;
+}
+.grid-item-one:hover .history {
+    text-decoration: underline;
+}
+.grid-item-two:hover .history {
+  text-decoration: underline;
+}
+.grid-item-three:hover .history {
+  text-decoration: underline;
+}
+.grid-item-four:hover .history {
+  text-decoration: underline;
+}
+.grid-item-five:hover .history {
+  text-decoration: underline;
+}
+.business:hover .tags{
+  text-decoration: none;
+}
+.business:hover,
+.freelance:hover,
+.money:hover,
+.experience:hover,
+.lifestyle:hover,
+.seo:hover,
+.wordpress:hover,
+.marketing:hover,
+.ux:hover,
+.modern:hover,
+.success:hover,
+.nature:hover,
+.productivity:hover,
+.sales-page:hover,
+.sell:hover,
+.teamwork:hover,
+.monetize:hover {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  background: rgba(255, 255, 255, 0.8);
+}
+.home-footer:focus {
+  background: rgba(255, 255, 255, 0.8);
+}
+a:active {
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  background: none;
+}
+.grid-article-one:hover .grid-bold-text {
+  text-decoration: underline;
+}
+.grid-article-two:hover .grid-bold-text {
+  text-decoration: underline;
+}
+.grid-article-three:hover .grid-bold-text {
+  text-decoration: underline;
+}
+.grid-article-four:hover .grid-bold-text {
+  text-decoration: underline;
+}
+.grid-article-five:hover .grid-bold-text {
+  text-decoration: underline;
+}
+.grid-aside-one:hover .aside-history {
+  text-decoration: underline;
+}
+.grid-aside-two:hover .aside-history {
+  text-decoration: underline;
+}
+.grid-aside-three:hover .aside-history {
+  text-decoration: underline;
+}
+.grid-aside-four:hover .aside-history {
+  text-decoration: underline;
+}
+.instagram-seven:hover {
+  background: #5C5C5C;
+  border-radius: 3px;
+}
+.instagram-seven:focus {
+  background: #232323;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.text-first-image:hover {
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.first-image:hover .text-first-image {
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.text-two-image:hover {
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.text-three-image:hover {
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.your-email:hover {
+  background: #F4F6FA;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.your-name:hover {
+  background: #F4F6FA;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.your-name:focus {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.your-email:focus {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.your-email-footer:hover {
+  background: #6C6C6C;
+  border-radius: 3px;
+}
+.your-name-footer:hover {
+  background: #6C6C6C;
+  border-radius: 3px;
+}
+.your-email-footer:focus {
+  background: #5A5A5A;
+  border-radius: 3px;
+}
+.your-name-footer:focus {
+  background: #5A5A5A;
+  border-radius: 3px;
+}
+.back:hover,
+.first:hover,
+.second:hover,
+.third:hover,
+.three-dot:hover,
+.eighth:hover,
+.further:hover {
+  background: #EFEFEF;
+  text-decoration: none;
+  color: #171717;
+}
+.back:active,
+.first:active,
+.second:active,
+.third:active,
+.three-dot:active,
+.eighth:active,
+.further:active {
+  background: #000000;
+  color: #FFFFFF;
+}
+.icon-first:hover,
+.icon-two:hover,
+.icon-three:hover,
+.icon-four:hover,
+.icon-five:hover {
+  background: #777777;
+}
+.icon-first:active,
+.icon-two:active,
+.icon-three:active,
+.icon-four:active,
+.icon-five:active {
+  background: #FFFFFF;
+  background-color: #000000;
+} 
+.three-image:hover .text-three-image {
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
 }
 
 
