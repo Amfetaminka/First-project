@@ -5,6 +5,9 @@ html {
 *{ 
   box-sizing: border-box;
 }
+.menu-btn {
+  display: none;
+}
 .header_nav {
   position: absolute;
   width: 100%;
@@ -66,10 +69,11 @@ li {
   margin-left: 702px;
 }
 .grid-item-one {
-  background-image: url(../First-project/images-item/Bitmap-1.png);
+  background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
   background-size: 373px 560px;
   background-repeat: no-repeat;
   border-radius: 5px;
+  position: relative;
 }
 .grid-item-two,
 .grid-item-three,
@@ -80,16 +84,16 @@ li {
   border-radius: 5px;
 }
 .grid-item-two {
-  background-image: url(../First-project/images-item/Bitmap-2.png);
+  background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
 }
 .grid-item-three {
-  background-image: url(../First-project/images-item/Bitmap-3.png);
+  background-image: url(../First-project/all-images/images-item/Bitmap-3.png);
 }
 .grid-item-four {
-  background-image: url(../First-project/images-item/Bitmap-4.png);
+  background-image: url(../First-project/all-images/images-item/Bitmap-4.png);
 }
 .grid-item-five {
-  background-image: url(../First-project/images-item/Bitmap-5.png);
+  background-image: url(../First-project/all-images/images-item/Bitmap-5.png);
 }
 .vehicle {
   display: flex;
@@ -173,19 +177,19 @@ li {
   justify-content: center;
 }
 .grid-article-one {
-  background-image: url(../First-project/images-article/Bitmap-1.png);
+  background-image: url(../First-project/all-images/images-article/Bitmap-1.png);
 }
 .grid-article-two {
-  background-image: url(../First-project/images-article/Bitmap-2.png);
+  background-image: url(../First-project/all-images/images-article/Bitmap-2.png);
 }
 .grid-article-three {
-  background-image: url(../First-project/images-article/Bitmap-3.png);
+  background-image: url(../First-project/all-images/images-article/Bitmap-3.png);
 }
 .grid-article-four {
-  background-image: url(../First-project/images-article/Bitmap-4.png);
+  background-image: url(../First-project/all-images/images-article/Bitmap-4.png);
 }
 .grid-article-five {
-  background-image: url(../First-project/images-article/Bitmap-5.png);
+  background-image: url(../First-project/all-images/images-article/Bitmap-5.png);
 }
 .grid-container-article {
   width: 100%;
@@ -226,6 +230,7 @@ li {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin: 315px 0 0 0;
+  margin-left: -5px;
 }
 .grid-bold-text {
   position: absolute;
@@ -277,16 +282,16 @@ li {
   margin-top: 125px;
 }
 .grid-aside-one {
-  background-image: url(../First-project/images-aside/Bitmap-1.png);
+  background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
 }
 .grid-aside-two {
-  background-image: url(../First-project/images-aside/Bitmap-2.png);
+  background-image: url(../First-project/all-images/images-aside/Bitmap-2.png);
 }
 .grid-aside-three {
-  background-image: url(../First-project/images-aside/Bitmap-3.png);
+  background-image: url(../First-project/all-images/images-aside/Bitmap-3.png);
 }
 .grid-aside-four {
-  background-image: url(../First-project/images-aside/Bitmap-4.png);
+  background-image: url(../First-project/all-images/images-aside/Bitmap-4.png);
 }
 .popular-post {
   position: absolute;
@@ -337,26 +342,22 @@ li {
   background-repeat: no-repeat;
 }
 .instagram-one {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 23.png);
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
 }
 .instagram-two {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 24.png);
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 24.png);
 }
 .instagram-three {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 30.png);
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 30.png);
 }
 .instagram-four {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 42.png);
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 42.png);
 }
 .instagram-five {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 43.png);
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 43.png);
 }
 .instagram-six {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 44.png);
-}
-.instagram-seven {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 9.png);
-  background-size: 270px 50px;
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 44.png);
 }
 .grid-container-instagram {
   display: grid;
@@ -401,17 +402,23 @@ li {
   grid-row: 4;
 }
 .view-instagram {
-  background-image: url(../First-project/images-instagram/Combined\ Shape\ \(1\).png);
+  background-image: url(../First-project/all-images/images-instagram/Combined\ Shape\ \(1\).png);
   background-repeat: no-repeat;
   background-position-x: 74px;
   background-position-y: 17px;
+  padding-left: 30px;
+  width: 270px;
+  height: 50px;
   font-weight: bold;
   font-size: 14px;
   color: white;
   display: flex;
-  padding-top: 17px;
-  padding-left: 15px;
   justify-content: center;
+  cursor: pointer;
+  border: none;
+  font-family: "PT Sans";
+  border-radius: 3px;
+  background-color: #232323;
 }
 .business, .freelance, .money,
 .experience, .lifestyle, .seo,
@@ -621,8 +628,6 @@ li {
 }
 .subscribe,
 .subscribe-footer {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy-background-subscribe.png);
-  background-size: 270px 50px;
   display: flex;
   position: relative;
   width: 270px;
@@ -630,10 +635,14 @@ li {
   font-weight: bold;
   font-size: 14px;
   color: #FFFFFF;
-  padding-top: 17px;
   justify-content: center;
   top: -884px;
   right: -886px;
+  cursor: pointer;
+  border: none;
+  font-family: "PT Sans";
+  border-radius: 3px;
+  background-color: #232323;
 }
 .subscribe {
   top: 940px;
@@ -773,7 +782,7 @@ li {
 .icon-three,
 .icon-four,
 .icon-five {
-  background-image: url(../First-project/images-footer-icon/Rectangle.png);
+  background-image: url(../First-project/all-images/images-footer-icon/Rectangle.png);
   background-size: 34px 34px;
   border-radius: 3px;
   display: flex;
@@ -833,7 +842,7 @@ li {
   right: 0;
   justify-content: center;
 }
-.grid-footer-two {
+.black-block {
   position: absolute;
   background: #000000;
   margin-top: 499px;
@@ -841,7 +850,7 @@ li {
   height: 94px;
   left: 0;
 }
-.grid-footer-two {
+.black-block {
   display: grid;
   width: 100%;
   height: 94px;
@@ -849,7 +858,7 @@ li {
   grid-template-rows: 50px;
   grid-gap: 20px;
   justify-content: center;
-  margin-top: 729px;
+  margin-top: 400px;
 }
 .all-right-reserved {
   display: flex;
@@ -910,6 +919,22 @@ li {
 }
 .business:hover .tags{
   text-decoration: none;
+}
+.grid-item-one:hover {
+  height: 560px;
+  width: 373px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  z-index: 1;
+}
+.grid-item-two:hover {
+  height: 265px;
+  width: 370px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  z-index: 1;
 }
 .business:hover,
 .freelance:hover,
@@ -1081,21 +1106,23 @@ a:active {
   text-decoration-line: underline;
   color: #FFFFFF;
 }
-/* .background-hover{ 
-  position: relative;
-  display: flex;
-  opacity: 0;
-  width: 373px;
-  height: 0;
+.subscribe:hover,
+.view-instagram:hover,
+.subscribe-footer:hover {
+  background-color: #5C5C5C;
 }
-.background-hover:hover { 
-  background-size: 373px 560px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
-  opacity: 1;
-  width: 373px;
-  height: 560px;
-} */
+.subscribe:focus,
+.view-instagram:focus,
+.subscribe-footer:focus {
+  background: #232323;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+}
+.subscribe:active,
+.view-instagram:active,
+.subscribe-footer:active {
+  background-color: #0E0E0E;
+  border: none;
+}
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   html {
@@ -1156,13 +1183,13 @@ a:active {
   }
   .premium {
     font-family: "Lato";
-    margin-left: 170px;
+    margin-left: 166px;
   }
   .home {
-    margin-left: 290px;
+    margin-left: 296px;
   }
   .grid-item-one {
-    background-image: url(../First-project/images-item/Bitmap-1.png);
+    background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
     background-size: 373px 560px;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -1176,16 +1203,16 @@ a:active {
     border-radius: 5px;
   }
   .grid-item-two {
-    background-image: url(../First-project/images-item/Bitmap-2.png);
+    background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
   }
   .grid-item-three {
-    background-image: url(../First-project/images-item/Bitmap-3.png);
+    background-image: url(../First-project/all-images/images-item/Bitmap-3.png);
   }
   .grid-item-four {
-    background-image: url(../First-project/images-item/Bitmap-4.png);
+    background-image: url(../First-project/all-images/images-item/Bitmap-4.png);
   }
   .grid-item-five {
-    background-image: url(../First-project/images-item/Bitmap-5.png);
+    background-image: url(../First-project/all-images/images-item/Bitmap-5.png);
   }
   .vehicle {
     display: flex;
@@ -1315,19 +1342,19 @@ a:active {
     margin-top: 75px;
   }
   .grid-article-one {
-    background-image: url(../First-project/images-article/Bitmap-1.png);
+    background-image: url(../First-project/all-images/images-article/Bitmap-1.png);
   }
   .grid-article-two {
-    background-image: url(../First-project/images-article/Bitmap-2.png);
+    background-image: url(../First-project/all-images/images-article/Bitmap-2.png);
   }
   .grid-article-three {
-    background-image: url(../First-project/images-article/Bitmap-3.png);
+    background-image: url(../First-project/all-images/images-article/Bitmap-3.png);
   }
   .grid-article-four {
-    background-image: url(../First-project/images-article/Bitmap-4.png);
+    background-image: url(../First-project/all-images/images-article/Bitmap-4.png);
   }
   .grid-article-five {
-    background-image: url(../First-project/images-article/Bitmap-5.png);
+    background-image: url(../First-project/all-images/images-article/Bitmap-5.png);
   }
   .grid-container-article {
     width: 100%;
@@ -1347,6 +1374,7 @@ a:active {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin: 315px 25px 0 25px;
+    margin-left: 20px;
   }
   .grid-bold-text {
     position: absolute;
@@ -1435,18 +1463,18 @@ a:active {
     margin-top: 164px;
   }
   .grid-aside-one {
-    background-image: url(../First-project/images-aside/Bitmap-1.png);
+    background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
   }
   .grid-aside-two {
-    background-image: url(../First-project/images-aside/Bitmap-2.png);
+    background-image: url(../First-project/all-images/images-aside/Bitmap-2.png);
     margin-left: 25px;
   }
   .grid-aside-three {
-    background-image: url(../First-project/images-aside/Bitmap-3.png);
+    background-image: url(../First-project/all-images/images-aside/Bitmap-3.png);
     margin-top: 64px;
   }
   .grid-aside-four {
-    background-image: url(../First-project/images-aside/Bitmap-4.png);
+    background-image: url(../First-project/all-images/images-aside/Bitmap-4.png);
     margin-left: 25px;
     margin-top: 64px;
   }
@@ -1499,26 +1527,22 @@ a:active {
     background-repeat: no-repeat;
   }
   .instagram-one {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 23.png);
+    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
   }
   .instagram-two {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 24.png);
+    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 24.png);
   }
   .instagram-three {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 30.png);
+    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 30.png);
   }
   .instagram-four {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 42.png);
+    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 42.png);
   }
   .instagram-five {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 43.png);
+    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 43.png);
   }
   .instagram-six {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 44.png);
-  }
-  .instagram-seven {
-    background-image: url(../First-project/images-instagram/Rectangle\ Copy\ 9.png);
-    background-size: 270px 50px;
+    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 44.png);
   }
   .grid-container-instagram {
     display: grid;
@@ -1534,48 +1558,30 @@ a:active {
     font-weight: bold;
     font-size: 18px;
   }
-  .instagram-one {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .instagram-two {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .instagram-three {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .instagram-four {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  .instagram-five {
-    grid-column: 1; 
-    grid-row: 3;
-  }
-  .instagram-six {
-    grid-column: 2;
-    grid-row: 3;
-  }
   .instagram-seven {
     grid-column: 1 / span 2;
     grid-row: 4;
   }
   .view-instagram {
-    background-image: url(../First-project/images-instagram/Combined\ Shape\ \(1\).png);
+    background-image: url(../First-project/all-images/images-instagram/Combined\ Shape\ \(1\).png);
     background-repeat: no-repeat;
     background-position-x: 74px;
     background-position-y: 17px;
+    width: 270px;
+    height: 50px;
     font-weight: bold;
     font-size: 14px;
     color: white;
     display: flex;
-    padding-top: 17px;
-    padding-left: 15px;
+    padding-left: 30px;
     justify-content: center;
+    cursor: pointer;
+    border: none;
+    font-family: "PT Sans";
+    border-radius: 3px;
+    background-color: #232323;
   }
-  .business, .freelance, .money,
+.business, .freelance, .money,
 .experience, .lifestyle, .seo,
 .wordpress, .marketing, .ux,
 .modern, .success, .nature,
@@ -1714,10 +1720,12 @@ a:active {
   top: -160px;
   right: -300px;
 }
+.menu-btn {
+  display: none;
+}
 .subscribe,
 .subscribe-footer {
-  background-image: url(../First-project/images-instagram/Rectangle\ Copy-background-subscribe.png);
-  background-size: 270px 50px;
+  background-color: #232323;
   display: flex;
   position: relative;
   width: 270px;
@@ -1725,10 +1733,13 @@ a:active {
   font-weight: bold;
   font-size: 14px;
   color: #FFFFFF;
-  padding-top: 17px;
   justify-content: center;
   top: -700px;
   right: -165px;
+  cursor: pointer;
+  border: none;
+  font-family: "PT Sans";
+  border-radius: 3px;
 }
 .subscribe {
   top: -160px;
@@ -1826,7 +1837,7 @@ a:active {
   font-weight: bold;
   font-size: 20px;
   display: flex;
-  margin-left: 515px;
+  margin-left: 510px;
   margin-top: 62px;
 }
 .short-description,
@@ -1858,7 +1869,7 @@ a:active {
 .icon-three,
 .icon-four,
 .icon-five {
-  background-image: url(../First-project/images-footer-icon/Rectangle.png);
+  background-image: url(../First-project/all-images/images-footer-icon/Rectangle.png);
   background-size: 34px 34px;
   border-radius: 3px;
   display: flex;
@@ -1920,10 +1931,10 @@ a:active {
   justify-content: center;
   width: 585px;
 }
-.grid-footer-two {
+.black-block {
   position: absolute;
   background: #000000;
-  margin-top: 622px;
+  margin-top: 240px;
   width: 100%;
   height: 94px;
   left: 0;
@@ -2162,6 +2173,1115 @@ a:active {
 .three-image:hover .text-three-image {
   text-decoration-line: underline;
   color: #FFFFFF;
+}
+.subscribe:hover,
+.view-instagram:hover,
+.subscribe-footer:hover {
+  background-color: #5C5C5C;
+}
+.subscribe:focus,
+.view-instagram:focus,
+.subscribe-footer:focus {
+  background: #232323;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+}
+.subscribe:active,
+.view-instagram:active,
+.subscribe-footer:active {
+  background-color: #0E0E0E;
+  border: none;
+}
+}
+@media (max-width: 768px) {
+html {
+  font-family: "PT Sans";
+}
+*{ 
+  box-sizing: border-box;
+}
+.header_nav {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  background-color: #000000;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.header_nav-list {
+  padding: 0px;
+  display: flex;
+  align-content: center;
+  margin: 36px;
+  list-style: none;
+}
+.car {
+  display: flex;
+  margin-left: 9px;
+  font-family: "Lato";
+  font-size: 14px;
+  border: 4px solid #4A90E2;
+  background: #4A90E2;
+  border-radius: 3px;
+}
+.premium {
+  font-family: "Lato";
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+  .home,
+  .recipes,
+  .article,
+  .contact,
+  .purchase {
+    display: none;
+}
+.menu-btn {
+  position: absolute;
+  color: white;
+  width: 32px;
+  right: 16px;
+  align-self: center;
+  margin-top: 30px;
+}
+.menu-btn div {
+  height: 2px; 
+  background-color: white;
+}
+.menu-btn div:not(:first-child) {
+  margin-top: 6px;
+}
+.grid-item-one {
+  background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
+  background-size: 373px 560px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.grid-item-two,
+.grid-item-three,
+.grid-item-four,
+.grid-item-five {
+  background-size: 397px 265px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.grid-item-two {
+  background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
+}
+.grid-item-three {
+  background-image: url(../First-project/all-images/images-item/Bitmap-3.png);
+}
+.grid-item-four {
+  background-image: url(../First-project/all-images/images-item/Bitmap-4.png);
+}
+.grid-item-five {
+  background-image: url(../First-project/all-images/images-item/Bitmap-5.png);
+}
+.vehicle {
+  display: flex;
+  color: #FFFFFF;
+  margin-left: 27px;
+  margin-top: 30px;
+  border: solid 1px #4A90E2;
+  background-color: #4A90E2;
+  border-radius: 3px;
+  height: 22px;
+  width: 62px;
+  padding: 4px 12px 2px;
+  font-size: 12px;
+}
+.human-and-date {
+  display: flex;
+  font-size: 14px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 108px;
+}
+.history {
+  display: flex;
+  white-space: pre-line;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-top: 6px;
+  padding-left: 20px;
+}
+.grid-item-one .history {
+  display: flex;
+  white-space: pre-line;
+  font-size: 26px;
+  padding-left: 21px;
+}
+.grid-item-one .human-and-date {
+  padding-top: 391px;
+  padding-left: 21px;
+}
+.grid-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(6, 265px);
+  grid-template-columns: 370px;
+  grid-gap: 30px;
+  padding-left: 0px;
+  padding-top: 120px;
+  justify-content: center;
+}
+.grid-item-one {
+  grid-row: 1 / span 2;
+}
+.grid-item-two {
+  grid-row: 3;
+}
+.grid-item-three {
+  grid-row: 4;
+}
+.grid-item-four {
+  grid-row: 5;
+}
+.grid-item-five {
+  grid-row: 6;
+}
+.border {
+  position: absolute;
+  display: flex;
+  width: 726px;
+  height: 249px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 315px 25px 0 25px;
+}
+.grid-bold-text {
+  position: absolute;
+  height: 28px;
+  display: flex;
+  white-space: pre-line;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 72px 95px 149px 30px;
+}
+.grid-article-date {
+  position: absolute;
+  height: 18px;
+  display: flex;
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 115px;
+  padding-left: 29px;
+  color: #666666;
+}
+.grid-description-text {
+  line-height: 24px;
+  font-size: 14px;
+  color: #666666;
+  padding: 147px 85px 30px 29px;
+}
+.article-vehicle {
+  position: absolute;
+  display: flex;
+  color: #FFFFFF;
+  margin-left: 29px;
+  margin-top: 30px;
+  border: solid 1px #4A90E2;
+  background-color: #4A90E2;
+  border-radius: 3px;
+  height: 22px;
+  width: 62px;
+  padding: 4px 12px 2px;
+  font-size: 12px;
+}
+.grid-item-two,
+.grid-item-three,
+.grid-item-four,
+.grid-item-five {
+  background-size: 397px 265px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.grid-article-one {
+  background-image: url(../First-project/all-images/images-article-768px/Bitmap.png);
+}
+.grid-article-two {
+  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(1\).png);
+}
+.grid-article-three {
+  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(2\).png);
+}
+.grid-article-four {
+  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(3\).png);
+}
+.grid-article-five {
+  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(4\).png);
+}
+.grid-article-one,
+.grid-article-two,
+.grid-article-three,
+.grid-article-four,
+.grid-article-five {
+  background-size: 370px 419px;
+  height: 560px;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}
+.grid-article-two {
+  margin-top: 258px;
+}
+.grid-article-three {
+  margin-top: 458px;
+}
+.grid-article-four {
+  margin-top: 658px;
+}
+.grid-article-five {
+  margin-top: 858px;
+}
+.grid-container-article {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 370px;
+  grid-template-rows: repeat(5, 421px);
+  grid-row-gap: 94px;
+  justify-content: center;
+}
+.border {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  height: 324px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 334px 0 0 0;
+  margin-left: 10px;
+}
+.grid-bold-text {
+  position: absolute;
+  height: 28px;
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 71px 49px 149px 14px;
+}
+.grid-article-date {
+  position: absolute;
+  height: 18px;
+  display: flex;
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 142px;
+  padding-left: 14px;
+  color: #666666;
+}
+.grid-description-text {
+  line-height: 24px;
+  font-size: 14px;
+  color: #666666;
+  padding: 174px 41px 30px 14px;
+}
+.article-vehicle {
+  position: absolute;
+  display: flex;
+  color: #FFFFFF;
+  margin-left: 14px;
+  margin-top: 30px;
+  border: solid 1px #4A90E2;
+  background-color: #4A90E2;
+  border-radius: 3px;
+  height: 22px;
+  width: 62px;
+  padding: 4px 12px 2px;
+  font-size: 12px;
+}
+.grid-transition-between-pages {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: 40px;
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: -3800px;
+  margin-left: 17px;
+}
+.grid-aside {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: repeat(4, 900px);
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  margin-top: 460px;
+  margin-left: 25px;
+}
+.grid-aside-one,
+.grid-aside-two,
+.grid-aside-three,
+.grid-aside-four {
+  background-size: 292px 195px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-top: 736px;
+  margin-left: 20px;
+}
+.grid-aside-two {
+  margin-top: 156px;
+}
+.grid-aside-three {
+  margin-top: -390px;
+}
+.grid-aside-four {
+  margin-top: -930px;
+}
+.grid-aside-one {
+  background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
+}
+.grid-aside-two {
+  background-image: url(../First-project/all-images/images-aside/Bitmap-2.png);
+}
+.grid-aside-three {
+  background-image: url(../First-project/all-images/images-aside/Bitmap-3.png);
+}
+.grid-aside-four {
+  background-image: url(../First-project/all-images/images-aside/Bitmap-4.png);
+}
+.popular-post {
+  position: absolute;
+  width: 100px;
+  font-weight: bold;
+  font-size: 18px;
+  top: 5580px;
+}
+.aside-vehicle {
+  position: absolute;
+  display: flex;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: solid 1px #4A90E2;
+  background-color: #4A90E2;
+  border-radius: 3px;
+  height: 22px;
+  width: 62px;
+  padding: 4px 12px 2px;
+  font-size: 12px;
+}
+.aside-border {
+  height: 56px;
+  width: 270px;
+  padding-top: 215px;
+}
+.grid-aside-one .aside-border {
+  padding-top: 185px;
+}
+.aside-history {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.aside-date {
+  display: flex;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 15px;
+  color: #666666;
+}
+.grid-aside-one {
+  grid-row: 1;
+}
+.grid-aside-two {
+  grid-row: 2;
+}
+.grid-aside-three {
+  grid-row: 3;
+}
+.grid-aside-four {
+  grid-row: 4;
+}
+.instagram-one {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
+}
+.instagram-two {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 24.png);
+}
+.instagram-three {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 30.png);
+}
+.instagram-four {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 42.png);
+}
+.instagram-five {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 43.png);
+}
+.instagram-six {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 44.png);
+}
+.instagram-seven {
+  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 9.png);
+}
+.grid-container-instagram {
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: 130px 130px 130px 50px;
+  grid-gap: 10px;
+  margin-left: 40px;
+  margin-top: -1530px;
+}
+.text-instagram {
+  position: relative;
+  bottom: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.instagram-seven {
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
+.view-instagram {
+  background-image: url(../First-project/all-images/images-instagram/Combined\ Shape\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position-x: 74px;
+  background-position-y: 17px;
+  padding-left: 30px;
+  font-weight: bold;
+  width: 270px;
+  height: 50px;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  font-family: "PT Sans";
+  border-radius: 3px;
+  background-color: #232323;
+}
+.business, .freelance, .money,
+.experience, .lifestyle, .seo,
+.wordpress, .marketing, .ux,
+.modern, .success, .nature,
+.productivity, .sales-page,
+.sell, .teamwork, .monetize {
+  background: #EBEBEB;
+  color: #171717;
+  font-size: 14px;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  margin-top: -575px;
+}
+.business {
+  width: 84px;
+  margin-left: 884px;
+}
+.money {
+  width: 72px;
+  margin-left: 875px;
+}
+.experience {
+   width: 100px;
+   margin-left: 884px;
+}
+.freelance { 
+  width: 91px;
+  margin-left: 876px;
+}
+.lifestyle {
+  width: 82px;
+  margin-left: 892px;
+}
+.seo {
+  width: 58px;
+  margin-left: 882px;
+}
+.wordpress {
+  width: 98px;
+  margin-left: 884px;
+}
+.marketing {
+  width: 93px;
+  margin-left: 890px;
+}
+.ux {
+  width: 49px;
+  margin-left: 892px;
+}
+.success {
+  width: 79px;
+  margin-left: 872px;
+}
+.nature {
+  width: 72px;
+  margin-left: 860px;
+}
+.modern {
+  width: 79px;
+  margin-left: 884px;
+}
+.productivity {
+  width: 104px;
+  margin-left: 884px;
+}
+.sales-page {
+  width: 97px;
+  margin-left: 898px;
+}
+.sell {
+  margin-top: -535px;
+  width: 53px;
+  margin-left: 684px;
+}
+.teamwork {
+  width: 95px;
+  margin-left: 1050px;
+}
+.monetize {
+  width: 88px;
+  margin-left: 850px;
+}
+.grid-tags-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 91px);
+  grid-template-rows: repeat(6, 30px);
+  grid-gap: 10px;
+  margin-left: -840px;
+  margin-top: -490px;
+}
+.tags {
+  position: relative;
+  display: flex;
+  bottom: 54px;
+  font-weight: bold;
+  font-size: 18px;
+  left: -68px;
+}
+.email-news {
+  display: flex;
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  width: 130px;
+  top: -500px;
+  right: -686px; 
+}
+.email-sign-up-text {
+  display: flex;
+  position: relative;
+  font-size: 14px;
+  color: #666666;
+  width: 252px;
+  top: -500px;
+  right: -888px; 
+}
+.your-name,
+.your-email {
+  display: flex;
+  position: relative;
+  width: 270px;
+  height: 50px;
+  padding-left: 15px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  top: -440px;
+  right: -788px;
+}
+.your-email {
+  top: -380px;
+  right: -688px;
+}
+.subscribe,
+.subscribe-footer {
+  display: flex;
+  position: relative;
+  width: 270px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #232323;
+  justify-content: center;
+  top: -700px;
+  right: -165px;
+  cursor: pointer;
+  border: none;
+  font-family: "PT Sans";
+  border-radius: 3px;
+}
+.subscribe {
+  top: -380px;
+  right: -890px;
+}
+.back,
+.first,
+.second,
+.third,
+.three-dot,
+.eighth,
+.further {
+  font-size: 16px;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  justify-content: center;
+  text-decoration: none;
+}
+.first {
+  background-color: #000000;
+  color: white;
+}
+.grid-first-footer {
+  width: 100%;
+  height: 1100px;
+  position: absolute;
+  background: #171717;
+  left: 0;
+  right: 0;
+  margin-top: -552px;
+}
+.first-image,
+.two-image,
+.three-image {
+  background-size: 95px 95px;
+  display: flex;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 44px;
+  justify-content: center;
+}
+.text-first-image,
+.text-two-image,
+.text-three-image {
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 26px;
+  width: 178px;
+  position: absolute;
+  margin-left: 359px;
+  margin-top: 45px;
+  justify-content: center;
+}
+.date-first-image,
+.date-two-image,
+.date-three-image {
+  display: flex;
+  position: absolute;
+  width: 159px;
+  color: #CECECE;
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 359px;
+  margin-top: 110px;
+  justify-content: center;
+}
+.text-two-image {
+  margin-top: 165px;
+}
+.date-two-image {
+  margin-top: 230px;
+}
+.two-image {
+  margin-top: 160px;
+}
+.text-three-image {
+  margin-top: 285px;
+}
+.date-three-image {
+  margin-top: 350px;
+}
+.three-image {
+  margin-top: 280px;
+}
+.recent-posts {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-left: 240px;
+  margin-top: 350px;
+}
+.short-description,
+.description,
+.keep-in-touch {
+  display: flex;
+  position: absolute;
+  font-size: 14px;
+  color: #CECECE;
+}
+.short-description {
+  margin-left: 240px;
+  color: #FFFFFF;
+  margin-top: -310px;
+}
+.keep-in-touch {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 120px;
+  margin-top: 160px;
+}
+.description {
+  margin-top: 50px;
+  width: 270px;
+}
+.icon-first,
+.icon-two,
+.icon-three,
+.icon-four,
+.icon-five {
+  background-image: url(../First-project/all-images/images-footer-icon/Rectangle.png);
+  background-size: 34px 34px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  margin-top: 210px;
+}
+.icon-first {
+  margin-left: -100px;
+  padding: 10px 7px;
+}
+.icon-two {
+  margin-left: -50px;
+  padding: 8px;
+}
+.icon-three {
+  padding: 10px 9px;
+}
+.icon-four {
+  margin-left: 50px;
+  padding: 8px 11px 10px 11px;
+}
+.icon-five {
+  margin-left: 100px;
+  padding: 8px 10px 10px 10px;
+}
+.newsletter {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: flex;
+  margin-left: 240px;
+  margin-top: 411px;
+  padding-top: 24px;
+}
+.your-name-footer,
+.your-email-footer {
+  padding-left: 15px;
+  display: flex;
+  position: absolute;
+  width: 293px;
+  height: 50px;
+  background: #373737;
+  border: 1px solid #373737;
+  border-radius: 3px;
+  justify-content: center;
+}
+.your-name-footer {
+  margin-top: 66px;
+}
+.your-email-footer {
+  margin-top: 126px;
+}
+.black-block {
+  position: absolute;
+  background: #000000;
+  margin-top: 260px;
+  width: 100%;
+  height: 108px;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(9, 50px);
+  grid-template-rows: 50px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+.home-footer,
+.recipes-footer,
+.article-footer,
+.contact-footer,
+.purchase-footer {
+  font-weight: normal;
+  font-size: 14px;  
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 24px;
+  grid-gap: 10px;
+  margin-left: -50px;
+}
+.home-footer {
+ grid-row: 1;
+ grid-column: 4;
+}
+.recipes-footer {
+  grid-row: 1;
+  grid-column: 5;
+}
+.article-footer {
+  grid-row: 1;
+  grid-column: 6;
+}
+.contact-footer {
+  grid-row: 1;
+  grid-column: 7;
+}
+.purchase-footer {
+  grid-row: 1;
+  grid-column: 8;
+}
+.subscribe-footer {
+  position: absolute;
+  margin-top: 1698px;
+  left: 965px;
+  margin-left: -725px;
+  right: 0;
+  border-radius: 3px;
+  color: white;
+  width: 293px;
+  height: 50px;
+  font-weight: bold;
+}
+.black-block .all-right-reserved {
+  display: flex;
+  position: absolute;
+  padding-top: 66px;
+  margin-left: 288px;
+  color: white;
+}
+.grid-item-one:hover .history {
+  text-decoration: underline;
+}
+.grid-item-two:hover .history {
+  text-decoration: underline;
+}
+.grid-item-three:hover .history {
+  text-decoration: underline;
+}
+.grid-item-four:hover .history {
+text-decoration: underline;
+}
+.grid-item-five:hover .history {
+text-decoration: underline;
+}
+.business:hover .tags{
+text-decoration: none;
+}
+/* .grid-item-one:hover {
+height: 560px;
+width: 373px;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 5px;
+transition-duration: 0.5s;
+z-index: 1;
+}
+.grid-item-two:hover {
+height: 265px;
+width: 370px;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 5px;
+transition-duration: 0.5s;
+z-index: 1;
+} */
+.business:hover,
+.freelance:hover,
+.money:hover,
+.experience:hover,
+.lifestyle:hover,
+.seo:hover,
+.wordpress:hover,
+.marketing:hover,
+.ux:hover,
+.modern:hover,
+.success:hover,
+.nature:hover,
+.productivity:hover,
+.sales-page:hover,
+.sell:hover,
+.teamwork:hover,
+.monetize:hover {
+text-decoration: underline;
+}
+a:hover {
+text-decoration: underline;
+}
+a:focus {
+background: rgba(255, 255, 255, 0.8);
+}
+.home-footer:focus {
+background: rgba(255, 255, 255, 0.8);
+}
+a:active {
+font-weight: bold;
+font-size: 14px;
+color: #FFFFFF;
+text-decoration: underline;
+background: none;
+}
+.grid-article-one:hover .grid-bold-text {
+text-decoration: underline;
+}
+.grid-article-two:hover .grid-bold-text {
+text-decoration: underline;
+}
+.grid-article-three:hover .grid-bold-text {
+text-decoration: underline;
+}
+.grid-article-four:hover .grid-bold-text {
+text-decoration: underline;
+}
+.grid-article-five:hover .grid-bold-text {
+text-decoration: underline;
+}
+.grid-aside-one:hover .aside-history {
+text-decoration: underline;
+}
+.grid-aside-two:hover .aside-history {
+text-decoration: underline;
+}
+.grid-aside-three:hover .aside-history {
+text-decoration: underline;
+}
+.grid-aside-four:hover .aside-history {
+text-decoration: underline;
+}
+.instagram-seven:hover {
+background: #5C5C5C;
+border-radius: 3px;
+}
+.instagram-seven:focus {
+background: #232323;
+border: 2px dashed rgba(255, 255, 255, 0.5);
+box-sizing: border-box;
+border-radius: 3px;
+}
+.text-first-image:hover {
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.first-image:hover .text-first-image {
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.text-two-image:hover {
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.text-three-image:hover {
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.your-email:hover {
+background: #F4F6FA;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.your-name:hover {
+background: #F4F6FA;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.your-name:focus {
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 3px;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.your-email:focus {
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 3px;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.your-email-footer:hover {
+background: #6C6C6C;
+border-radius: 3px;
+}
+.your-name-footer:hover {
+background: #6C6C6C;
+border-radius: 3px;
+}
+.your-email-footer:focus {
+background: #5A5A5A;
+border-radius: 3px;
+}
+.your-name-footer:focus {
+background: #5A5A5A;
+border-radius: 3px;
+}
+.back:hover,
+.first:hover,
+.second:hover,
+.third:hover,
+.three-dot:hover,
+.eighth:hover,
+.further:hover {
+background: #EFEFEF;
+text-decoration: none;
+color: #171717;
+}
+.back:active,
+.first:active,
+.second:active,
+.third:active,
+.three-dot:active,
+.eighth:active,
+.further:active {
+background: #000000;
+color: #FFFFFF;
+}
+.icon-first:hover,
+.icon-two:hover,
+.icon-three:hover,
+.icon-four:hover,
+.icon-five:hover {
+background: #777777;
+}
+.icon-first:active,
+.icon-two:active,
+.icon-three:active,
+.icon-four:active,
+.icon-five:active {
+background: #FFFFFF;
+background-color: #000000;
+} 
+.three-image:hover .text-three-image {
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.subscribe:hover,
+.view-instagram:hover,
+.subscribe-footer:hover {
+background-color: #5C5C5C;
+}
+.subscribe:focus,
+.view-instagram:focus,
+.subscribe-footer:focus {
+background: #232323;
+border: 2px dashed rgba(255, 255, 255, 0.5);
+}
+.subscribe:active,
+.view-instagram:active,
+.subscribe-footer:active {
+background-color: #0E0E0E;
+border: none;
 }
 }
 
