@@ -34,6 +34,7 @@ li {
 .car {
   display: flex;
   margin-left: 9px;
+  margin-top: -3px;
   font-family: "Lato";
   font-size: 14px;
   border: 4px solid #4A90E2;
@@ -74,6 +75,7 @@ li {
   background-repeat: no-repeat;
   border-radius: 5px;
   position: relative;
+  cursor: pointer;
 }
 .grid-item-two,
 .grid-item-three,
@@ -82,6 +84,7 @@ li {
   background-size: 397px 265px;
   background-repeat: no-repeat;
   border-radius: 5px;
+  cursor: pointer;
 }
 .grid-item-two {
   background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
@@ -105,7 +108,7 @@ li {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .human-and-date {
@@ -175,6 +178,7 @@ li {
   display: flex;
   margin-top: 75px;
   justify-content: center;
+  cursor: pointer;
 }
 .grid-article-one {
   background-image: url(../First-project/all-images/images-article/Bitmap-1.png);
@@ -268,7 +272,7 @@ li {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .grid-aside-one,
@@ -280,6 +284,7 @@ li {
   border-radius: 5px;
   margin-left: 73px;
   margin-top: 125px;
+  cursor: pointer;
 }
 .grid-aside-one {
   background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
@@ -311,7 +316,7 @@ li {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .aside-border {
@@ -340,6 +345,7 @@ li {
 .instagram-six {
   background-size: 130px 130px;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .instagram-one {
   background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
@@ -437,6 +443,7 @@ li {
   height: 30px;
   display: flex;
   margin-top: 850px;
+  cursor: pointer;
 }
 .business {
   width: 84px;
@@ -696,6 +703,7 @@ li {
   position: absolute;
   margin-left: 385px;
   margin-top: 44px;
+  cursor: pointer;
 }
 .first-image{
   margin-left: 510px;
@@ -788,6 +796,7 @@ li {
   display: flex;
   position: absolute;
   margin-top: 210px;
+  cursor: pointer;
 }
 .icon-first {
   margin-left: -100px;
@@ -1157,6 +1166,7 @@ a:active {
   .car {
     display: flex;
     margin-left: 9px;
+    margin-top: -3px;
     font-family: "Lato";
     font-size: 14px;
     border: 4px solid #4A90E2;
@@ -1193,6 +1203,7 @@ a:active {
     background-size: 373px 560px;
     background-repeat: no-repeat;
     border-radius: 5px;
+    cursor: pointer;
   }
   .grid-item-two,
   .grid-item-three,
@@ -1201,6 +1212,7 @@ a:active {
     background-size: 397px 265px;
     background-repeat: no-repeat;
     border-radius: 5px;
+    cursor: pointer;
   }
   .grid-item-two {
     background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
@@ -1224,7 +1236,7 @@ a:active {
     border-radius: 3px;
     height: 22px;
     width: 62px;
-    padding: 4px 12px 2px;
+    padding: 2px 12px 2px;
     font-size: 12px;
   }
   .human-and-date {
@@ -1340,6 +1352,7 @@ a:active {
   .grid-article-five {
     background-repeat: no-repeat;
     margin-top: 75px;
+    cursor: pointer;
   }
   .grid-article-one {
     background-image: url(../First-project/all-images/images-article/Bitmap-1.png);
@@ -1412,7 +1425,7 @@ a:active {
     border-radius: 3px;
     height: 22px;
     width: 62px;
-    padding: 4px 12px 2px;
+    padding: 2px 12px 2px;
     font-size: 12px;
   }
   .grid-article-one {
@@ -1461,6 +1474,7 @@ a:active {
     background-repeat: no-repeat;
     border-radius: 5px;
     margin-top: 164px;
+    cursor: pointer;
   }
   .grid-aside-one {
     background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
@@ -1496,7 +1510,7 @@ a:active {
     border-radius: 3px;
     height: 22px;
     width: 62px;
-    padding: 4px 12px 2px;
+    padding: 2px 12px 2px;
     font-size: 12px;
   }
   .aside-border {
@@ -1525,6 +1539,7 @@ a:active {
   .instagram-six {
     background-size: 130px 130px;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   .instagram-one {
     background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
@@ -1598,6 +1613,7 @@ a:active {
   height: 30px;
   display: flex;
   margin-top: -575px;
+  cursor: pointer;
 }
 .business {
   width: 84px;
@@ -1783,6 +1799,7 @@ a:active {
   position: absolute;
   margin-left: 385px;
   margin-top: 44px;
+  cursor: pointer;
 }
 .first-image{
   margin-left: 510px;
@@ -2218,6 +2235,7 @@ html {
 .car {
   display: flex;
   margin-left: 9px;
+  margin-top: -3px;
   font-family: "Lato";
   font-size: 14px;
   border: 4px solid #4A90E2;
@@ -2231,12 +2249,12 @@ html {
   color: white;
   display: flex;
 }
-  .home,
-  .recipes,
-  .article,
-  .contact,
-  .purchase {
-    display: none;
+.home,
+.recipes,
+.article,
+.contact,
+.purchase {
+  display: none;
 }
 .menu-btn {
   position: absolute;
@@ -2258,6 +2276,7 @@ html {
   background-size: 373px 560px;
   background-repeat: no-repeat;
   border-radius: 5px;
+  cursor: pointer;
 }
 .grid-item-two,
 .grid-item-three,
@@ -2266,6 +2285,7 @@ html {
   background-size: 397px 265px;
   background-repeat: no-repeat;
   border-radius: 5px;
+  cursor: pointer;
 }
 .grid-item-two {
   background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
@@ -2289,7 +2309,7 @@ html {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .human-and-date {
@@ -2390,7 +2410,7 @@ html {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .grid-item-two,
@@ -2400,6 +2420,7 @@ html {
   background-size: 397px 265px;
   background-repeat: no-repeat;
   border-radius: 5px;
+  cursor: pointer;
 }
 .grid-article-one {
   background-image: url(../First-project/all-images/images-article-768px/Bitmap.png);
@@ -2425,6 +2446,7 @@ html {
   height: 560px;
   background-repeat: no-repeat;
   margin-top: 60px;
+  cursor: pointer;
 }
 .grid-article-two {
   margin-top: 258px;
@@ -2493,7 +2515,7 @@ html {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .grid-transition-between-pages {
@@ -2504,7 +2526,7 @@ html {
   grid-template-rows: 40px;
   grid-gap: 10px;
   justify-content: center;
-  margin-top: -3800px;
+  margin-top: -3290px;
   margin-left: 17px;
 }
 .grid-aside {
@@ -2526,6 +2548,7 @@ html {
   border-radius: 5px;
   margin-top: 736px;
   margin-left: 20px;
+  cursor: pointer;
 }
 .grid-aside-two {
   margin-top: 156px;
@@ -2552,6 +2575,7 @@ html {
   position: absolute;
   width: 100px;
   font-weight: bold;
+  margin-left: -40px;
   font-size: 18px;
   top: 5580px;
 }
@@ -2566,7 +2590,7 @@ html {
   border-radius: 3px;
   height: 22px;
   width: 62px;
-  padding: 4px 12px 2px;
+  padding: 2px 12px 2px;
   font-size: 12px;
 }
 .aside-border {
@@ -2677,6 +2701,7 @@ html {
   height: 30px;
   display: flex;
   margin-top: -575px;
+  cursor: pointer;
 }
 .business {
   width: 84px;
@@ -2861,6 +2886,7 @@ html {
   margin-left: 240px;
   margin-top: 44px;
   justify-content: center;
+  cursor: pointer;
 }
 .text-first-image,
 .text-two-image,
@@ -2950,6 +2976,7 @@ html {
   display: flex;
   position: absolute;
   margin-top: 210px;
+  cursor: pointer;
 }
 .icon-first {
   margin-left: -100px;
@@ -3015,31 +3042,36 @@ html {
 .article-footer,
 .contact-footer,
 .purchase-footer {
-  font-weight: normal;
   font-size: 14px;  
   color: #FFFFFF;
   text-decoration: none;
   margin-top: 24px;
   grid-gap: 10px;
   margin-left: -50px;
+  height: 20px;
 }
 .home-footer {
- grid-row: 1;
- grid-column: 4;
+  width: 37px;
+  grid-row: 1;
+  grid-column: 4;
 }
 .recipes-footer {
+  width: 45px;
   grid-row: 1;
   grid-column: 5;
 }
 .article-footer {
+  width: 43px;
   grid-row: 1;
   grid-column: 6;
 }
 .contact-footer {
+  width: 45px;
   grid-row: 1;
   grid-column: 7;
 }
 .purchase-footer {
+  width: 55px;
   grid-row: 1;
   grid-column: 8;
 }
@@ -3072,13 +3104,13 @@ html {
   text-decoration: underline;
 }
 .grid-item-four:hover .history {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-item-five:hover .history {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .business:hover .tags{
-text-decoration: none;
+  text-decoration: none;
 }
 /* .grid-item-one:hover {
 height: 560px;
@@ -3113,118 +3145,118 @@ z-index: 1;
 .sell:hover,
 .teamwork:hover,
 .monetize:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 a:focus {
-background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 .home-footer:focus {
-background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 a:active {
-font-weight: bold;
-font-size: 14px;
-color: #FFFFFF;
-text-decoration: underline;
-background: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  background: none;
 }
 .grid-article-one:hover .grid-bold-text {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-article-two:hover .grid-bold-text {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-article-three:hover .grid-bold-text {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-article-four:hover .grid-bold-text {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-article-five:hover .grid-bold-text {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-aside-one:hover .aside-history {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-aside-two:hover .aside-history {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-aside-three:hover .aside-history {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .grid-aside-four:hover .aside-history {
-text-decoration: underline;
+  text-decoration: underline;
 }
 .instagram-seven:hover {
-background: #5C5C5C;
-border-radius: 3px;
+  background: #5C5C5C;
+  border-radius: 3px;
 }
 .instagram-seven:focus {
-background: #232323;
-border: 2px dashed rgba(255, 255, 255, 0.5);
-box-sizing: border-box;
-border-radius: 3px;
+  background: #232323;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 3px;
 }
 .text-first-image:hover {
-text-decoration-line: underline;
-color: #FFFFFF;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 .first-image:hover .text-first-image {
-text-decoration-line: underline;
-color: #FFFFFF;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 .text-two-image:hover {
-text-decoration-line: underline;
-color: #FFFFFF;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 .text-three-image:hover {
-text-decoration-line: underline;
-color: #FFFFFF;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 .your-email:hover {
-background: #F4F6FA;
-border: 1px solid #E5E5E5;
-box-sizing: border-box;
-border-radius: 3px;
+  background: #F4F6FA;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
 }
 .your-name:hover {
-background: #F4F6FA;
-border: 1px solid #E5E5E5;
-box-sizing: border-box;
-border-radius: 3px;
+  background: #F4F6FA;
+  border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+  border-radius: 3px;
 }
 .your-name:focus {
-background: #FFFFFF;
-border: 1px solid #E5E5E5;
-box-sizing: border-box;
-border-radius: 3px;
-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .your-email:focus {
-background: #FFFFFF;
-border: 1px solid #E5E5E5;
-box-sizing: border-box;
-border-radius: 3px;
-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;  
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .your-email-footer:hover {
-background: #6C6C6C;
-border-radius: 3px;
+  background: #6C6C6C;
+  border-radius: 3px;
 }
 .your-name-footer:hover {
-background: #6C6C6C;
-border-radius: 3px;
+  background: #6C6C6C;
+  border-radius: 3px;
 }
 .your-email-footer:focus {
-background: #5A5A5A;
-border-radius: 3px;
+  background: #5A5A5A;
+  border-radius: 3px;
 }
 .your-name-footer:focus {
-background: #5A5A5A;
-border-radius: 3px;
+  background: #5A5A5A;
+  border-radius: 3px;
 }
 .back:hover,
 .first:hover,
@@ -3233,9 +3265,9 @@ border-radius: 3px;
 .three-dot:hover,
 .eighth:hover,
 .further:hover {
-background: #EFEFEF;
-text-decoration: none;
-color: #171717;
+  background: #EFEFEF;
+  text-decoration: none;
+  color: #171717;
 }
 .back:active,
 .first:active,
@@ -3244,44 +3276,44 @@ color: #171717;
 .three-dot:active,
 .eighth:active,
 .further:active {
-background: #000000;
-color: #FFFFFF;
+  background: #000000;
+  color: #FFFFFF;
 }
 .icon-first:hover,
 .icon-two:hover,
 .icon-three:hover,
 .icon-four:hover,
 .icon-five:hover {
-background: #777777;
+  background: #777777;
 }
 .icon-first:active,
 .icon-two:active,
 .icon-three:active,
 .icon-four:active,
 .icon-five:active {
-background: #FFFFFF;
-background-color: #000000;
+  background: #FFFFFF;
+  background-color: #000000;
 } 
 .three-image:hover .text-three-image {
-text-decoration-line: underline;
-color: #FFFFFF;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 .subscribe:hover,
 .view-instagram:hover,
 .subscribe-footer:hover {
-background-color: #5C5C5C;
+  background-color: #5C5C5C;
 }
 .subscribe:focus,
 .view-instagram:focus,
 .subscribe-footer:focus {
-background: #232323;
-border: 2px dashed rgba(255, 255, 255, 0.5);
+  background: #232323;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
 }
 .subscribe:active,
 .view-instagram:active,
 .subscribe-footer:active {
-background-color: #0E0E0E;
-border: none;
+  background-color: #0E0E0E;
+  border: none;
 }
 }
 
