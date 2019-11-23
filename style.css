@@ -67,14 +67,13 @@ li {
   margin-left: -30px;
 }
 .home {
-  margin-left: 702px;
+  margin-left: 694px;
 }
 .grid-item-one {
   background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
   background-size: 373px 560px;
   background-repeat: no-repeat;
   border-radius: 5px;
-  position: relative;
   cursor: pointer;
 }
 .grid-item-two,
@@ -911,6 +910,15 @@ li {
   grid-row: 1;
   grid-column: 5;
 }
+/* .grid-item-one:hover {
+  width: 373px;
+  height: 560px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  z-index: 1;
+  position: relative;
+} */
 .grid-item-one:hover .history {
     text-decoration: underline;
 }
@@ -928,22 +936,6 @@ li {
 }
 .business:hover .tags{
   text-decoration: none;
-}
-.grid-item-one:hover {
-  height: 560px;
-  width: 373px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
-  transition-duration: 0.5s;
-  z-index: 1;
-}
-.grid-item-two:hover {
-  height: 265px;
-  width: 370px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
-  transition-duration: 0.5s;
-  z-index: 1;
 }
 .business:hover,
 .freelance:hover,
@@ -1018,19 +1010,27 @@ a:active {
   border-radius: 3px;
 }
 .text-first-image:hover {
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
 }
-.first-image:hover .text-first-image {
-  text-decoration-line: underline;
+.one-picture:hover .text-first-image {
+  text-decoration: underline;
   color: #FFFFFF;
 }
+.text-first-image:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+} 
 .text-two-image:hover {
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
 }
-.text-three-image:hover {
-  text-decoration-line: underline;
+.two-picture:hover .text-two-image {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.three-picture:hover .text-three-image {
+  text-decoration: underline;
   color: #FFFFFF;
 }
 .your-email:hover {
@@ -1060,20 +1060,22 @@ a:active {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .your-email-footer:hover {
-  background: #6C6C6C;
+  background-color: #6C6C6C;
   border-radius: 3px;
 }
 .your-name-footer:hover {
-  background: #6C6C6C;
+  background-color: #6C6C6C;
   border-radius: 3px;
 }
 .your-email-footer:focus {
-  background: #5A5A5A;
+  background-color: #5A5A5A;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-name-footer:focus {
-  background: #5A5A5A;
+  background-color: #5A5A5A;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .back:hover,
 .first:hover,
@@ -2094,19 +2096,27 @@ a:active {
   border-radius: 3px;
 }
 .text-first-image:hover {
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
 }
-.first-image:hover .text-first-image {
-  text-decoration-line: underline;
+.one-picture:hover .text-first-image {
+  text-decoration: underline;
   color: #FFFFFF;
 }
+.text-first-image:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+} 
 .text-two-image:hover {
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
 }
-.text-three-image:hover {
-  text-decoration-line: underline;
+.two-picture:hover .text-two-image {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.three-picture:hover .text-three-image {
+  text-decoration: underline;
   color: #FFFFFF;
 }
 .your-email:hover {
@@ -2136,20 +2146,24 @@ a:active {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .your-email-footer:hover {
-  background: #6C6C6C;
+  background-color: #6C6C6C;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-name-footer:hover {
-  background: #6C6C6C;
+  background-color: #6C6C6C;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-email-footer:focus {
-  background: #5A5A5A;
+  background-color: #5A5A5A;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-name-footer:focus {
-  background: #5A5A5A;
+  background-color: #5A5A5A;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .back:hover,
 .first:hover,
@@ -2187,10 +2201,6 @@ a:active {
   background: #FFFFFF;
   background-color: #000000;
 } 
-.three-image:hover .text-three-image {
-  text-decoration-line: underline;
-  color: #FFFFFF;
-}
 .subscribe:hover,
 .view-instagram:hover,
 .subscribe-footer:hover {
@@ -3054,6 +3064,7 @@ html {
   width: 37px;
   grid-row: 1;
   grid-column: 4;
+  margin-left: -40px;
 }
 .recipes-footer {
   width: 45px;
@@ -3064,6 +3075,7 @@ html {
   width: 43px;
   grid-row: 1;
   grid-column: 6;
+  margin-left: -46px;
 }
 .contact-footer {
   width: 45px;
@@ -3090,7 +3102,7 @@ html {
 .black-block .all-right-reserved {
   display: flex;
   position: absolute;
-  padding-top: 66px;
+  margin-top: 66px;
   margin-left: 288px;
   color: white;
 }
@@ -3112,22 +3124,6 @@ html {
 .business:hover .tags{
   text-decoration: none;
 }
-/* .grid-item-one:hover {
-height: 560px;
-width: 373px;
-background-color: rgba(0, 0, 0, 0.6);
-border-radius: 5px;
-transition-duration: 0.5s;
-z-index: 1;
-}
-.grid-item-two:hover {
-height: 265px;
-width: 370px;
-background-color: rgba(0, 0, 0, 0.6);
-border-radius: 5px;
-transition-duration: 0.5s;
-z-index: 1;
-} */
 .business:hover,
 .freelance:hover,
 .money:hover,
@@ -3201,19 +3197,27 @@ a:active {
   border-radius: 3px;
 }
 .text-first-image:hover {
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
 }
-.first-image:hover .text-first-image {
-  text-decoration-line: underline;
+.one-picture:hover .text-first-image {
+  text-decoration: underline;
   color: #FFFFFF;
 }
+.text-first-image:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+} 
 .text-two-image:hover {
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
 }
-.text-three-image:hover {
-  text-decoration-line: underline;
+.two-picture:hover .text-two-image {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.three-picture:hover .text-three-image {
+  text-decoration: underline;
   color: #FFFFFF;
 }
 .your-email:hover {
@@ -3243,20 +3247,24 @@ a:active {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .your-email-footer:hover {
-  background: #6C6C6C;
+  background-color: #6C6C6C;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-name-footer:hover {
-  background: #6C6C6C;
+  background-color: #6C6C6C;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-email-footer:focus {
-  background: #5A5A5A;
+  background-color: #5A5A5A;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .your-name-footer:focus {
-  background: #5A5A5A;
+  background-color: #5A5A5A;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .back:hover,
 .first:hover,
@@ -3294,10 +3302,6 @@ a:active {
   background: #FFFFFF;
   background-color: #000000;
 } 
-.three-image:hover .text-three-image {
-  text-decoration-line: underline;
-  color: #FFFFFF;
-}
 .subscribe:hover,
 .view-instagram:hover,
 .subscribe-footer:hover {
