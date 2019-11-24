@@ -75,6 +75,7 @@ li {
   background-repeat: no-repeat;
   border-radius: 5px;
   cursor: pointer;
+  position: relative;
 }
 .grid-item-two,
 .grid-item-three,
@@ -148,7 +149,7 @@ li {
 }
 .grid-item-one {
   grid-row: 1 / span 2;
-  grid-column: 1 / span 2;
+  grid-column: 1;
 }
 .grid-item-two {
   grid-row: 1;
@@ -910,15 +911,22 @@ li {
   grid-row: 1;
   grid-column: 5;
 }
-/* .grid-item-one:hover {
-  width: 373px;
+.photo-discription-one:hover {
+  width: 370px;
   height: 560px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   transition-duration: 0.5s;
-  z-index: 1;
-  position: relative;
-} */
+  position: absolute;
+}
+.photo-discription:hover {
+  width: 370px;
+  height: 265px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  position: absolute;
+}
 .grid-item-one:hover .history {
     text-decoration: underline;
 }
@@ -2004,6 +2012,22 @@ a:active {
 .purchase-footer {
   grid-row: 1;
   grid-column: 5;
+}
+.photo-discription-one:hover {
+  width: 373px;
+  height: 560px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  position: absolute;
+}
+.photo-discription:hover {
+  width: 370px;
+  height: 265px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  position: absolute;
 }
 .grid-item-one:hover .history {
     text-decoration: underline;
@@ -3105,6 +3129,22 @@ html {
   margin-top: 66px;
   margin-left: 288px;
   color: white;
+}
+.photo-discription-one:hover {
+  width: 370px;
+  height: 560px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  position: absolute;
+}
+.photo-discription:hover {
+  width: 370px;
+  height: 265px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  position: absolute;
 }
 .grid-item-one:hover .history {
   text-decoration: underline;
