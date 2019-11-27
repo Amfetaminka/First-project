@@ -33,14 +33,15 @@ li {
 }
 .car {
   display: flex;
-  margin-left: 9px;
-  margin-top: -3px;
+  margin-left: 29px;
+  margin-top: -20px;
   font-family: "Lato";
   font-size: 14px;
   border: 4px solid #4A90E2;
   background: #4A90E2;
   border-radius: 3px;
   height: 25px;
+  color: #FFFFFF;
 }
 .premium,
 .home,
@@ -67,10 +68,10 @@ li {
   margin-left: -30px;
 }
 .home {
-  margin-left: 694px;
+  margin-left: 696px;
 }
 .grid-item-one {
-  background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
+  background-image: url(./all-images/images-item/image-item-1.png);
   background-size: 373px 560px;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -87,16 +88,16 @@ li {
   cursor: pointer;
 }
 .grid-item-two {
-  background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
+  background-image: url(./all-images/images-item/image-item-2.png);
 }
 .grid-item-three {
-  background-image: url(../First-project/all-images/images-item/Bitmap-3.png);
+  background-image: url(./all-images/images-item/image-item-3.png);
 }
 .grid-item-four {
-  background-image: url(../First-project/all-images/images-item/Bitmap-4.png);
+  background-image: url(./all-images/images-item/image-item-4.png);
 }
 .grid-item-five {
-  background-image: url(../First-project/all-images/images-item/Bitmap-5.png);
+  background-image: url(./all-images/images-item/image-item-5.png);
 }
 .vehicle {
   display: flex;
@@ -177,23 +178,24 @@ li {
   border-radius: 5px;
   display: flex;
   margin-top: 75px;
+  margin-left: 15px;
   justify-content: center;
   cursor: pointer;
 }
 .grid-article-one {
-  background-image: url(../First-project/all-images/images-article/Bitmap-1.png);
+  background-image: url(./all-images/images-article/image-article-1.png);
 }
 .grid-article-two {
-  background-image: url(../First-project/all-images/images-article/Bitmap-2.png);
+  background-image: url(./all-images/images-article/image-article-2.png);
 }
 .grid-article-three {
-  background-image: url(../First-project/all-images/images-article/Bitmap-3.png);
+  background-image: url(./all-images/images-article/image-article-3.png);
 }
 .grid-article-four {
-  background-image: url(../First-project/all-images/images-article/Bitmap-4.png);
+  background-image: url(./all-images/images-article/image-article-4.png);
 }
 .grid-article-five {
-  background-image: url(../First-project/all-images/images-article/Bitmap-5.png);
+  background-image: url(./all-images/images-article/image-article-5.png);
 }
 .grid-container-article {
   width: 100%;
@@ -282,21 +284,21 @@ li {
   background-size: 292px 195px;
   background-repeat: no-repeat;
   border-radius: 5px;
-  margin-left: 73px;
+  margin-left: 85px;
   margin-top: 125px;
   cursor: pointer;
 }
 .grid-aside-one {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
+  background-image: url(./all-images/images-aside/image-aside-1.png);
 }
 .grid-aside-two {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-2.png);
+  background-image: url(./all-images/images-aside/image-aside-2.png);
 }
 .grid-aside-three {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-3.png);
+  background-image: url(./all-images/images-aside/image-aside-3.png);
 }
 .grid-aside-four {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-4.png);
+  background-image: url(./all-images/images-aside/image-aside-4.png);
 }
 .popular-post {
   position: absolute;
@@ -348,29 +350,29 @@ li {
   cursor: pointer;
 }
 .instagram-one {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
+  background-image: url(./all-images/images-instagram/image-instagram-1.png);
 }
 .instagram-two {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 24.png);
+  background-image: url(./all-images/images-instagram/image-instagram-2.png);
 }
 .instagram-three {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 30.png);
+  background-image: url(./all-images/images-instagram/image-instagram-3.png);
 }
 .instagram-four {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 42.png);
+  background-image: url(./all-images/images-instagram/image-instagram-4.png);
 }
 .instagram-five {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 43.png);
+  background-image: url(./all-images/images-instagram/image-instagram-5.png);
 }
 .instagram-six {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 44.png);
+  background-image: url(./all-images/images-instagram/image-instagram-6.png);
 }
 .grid-container-instagram {
   display: grid;
   grid-template-columns: repeat(2, 130px);
   grid-template-rows: 130px 130px 130px 50px;
   grid-gap: 10px;
-  padding-left: 76px;
+  padding-left: 85px;
   margin-top: 900px;
 }
 .text-instagram {
@@ -408,7 +410,7 @@ li {
   grid-row: 4;
 }
 .view-instagram {
-  background-image: url(../First-project/all-images/images-instagram/Combined\ Shape\ \(1\).png);
+  background-image: url(./all-images/images-instagram/image-instagram-7.png);
   background-repeat: no-repeat;
   background-position-x: 74px;
   background-position-y: 17px;
@@ -444,6 +446,9 @@ li {
   display: flex;
   margin-top: 850px;
   cursor: pointer;
+}
+.tags:hover {
+  text-decoration: none;
 }
 .business {
   width: 84px;
@@ -520,7 +525,7 @@ li {
   grid-template-columns: repeat(3, 91px);
   grid-template-rows: repeat(6, 30px);
   grid-gap: 10px;
-  margin-left: -800px;
+  margin-left: -795px;
 }
 .business {
   grid-column: 1;
@@ -679,7 +684,7 @@ li {
   padding-top: 10px;
   justify-content: center;
   top: 50px;
-  right: 600px;
+  right: 580px;
   text-decoration: none;
 }
 .first {
@@ -790,7 +795,7 @@ li {
 .icon-three,
 .icon-four,
 .icon-five {
-  background-image: url(../First-project/all-images/images-footer-icon/Rectangle.png);
+  background-image: url(./all-images/images-footer-icon/image-footer-icon-background.png);
   background-size: 34px 34px;
   border-radius: 3px;
   display: flex;
@@ -879,6 +884,18 @@ li {
   color: #FFFFFF;
   text-decoration: none;
 }
+.car-footer {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -3px;
+  font-family: "Lato";
+  font-size: 14px;
+  border: 4px solid #4A90E2;
+  background: #4A90E2;
+  border-radius: 3px;
+  height: 25px;
+  color: #FFFFFF;
+}
 .home-footer,
 .recipes-footer,
 .article-footer,
@@ -965,22 +982,36 @@ li {
   text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #FFFFFF;
 }
 a:focus {
-  background: rgba(255, 255, 255, 0.8);
-}
-.home-footer:focus {
   background: rgba(255, 255, 255, 0.8);
 }
 a:active {
   font-weight: bold;
   font-size: 14px;
   color: #FFFFFF;
-  text-decoration: underline;
+  border-bottom: 2px solid #FFFFFF;
   background: none;
 }
-.grid-article-one:hover .grid-bold-text {
+.home-footer:hover,
+.recipes-footer:hover,
+.article-footer:hover,
+.contact-footer:hover,
+.purchase-footer:hover {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+}
+.home-footer:focus,
+.recipes-footer:focus,
+.article-footer:focus,
+.contact-footer:focus,
+.purchase-footer:focus
+.grid-article-one:focus {
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+}
+.grid-bold-text {
   text-decoration: underline;
 }
 .grid-article-two:hover .grid-bold-text {
@@ -1173,16 +1204,17 @@ a:active {
     list-style-type: none;
     display: inline-block;
   }
-  .car {
+  span.car {
     display: flex;
-    margin-left: 9px;
-    margin-top: -3px;
+    margin-left: 230px;
+    margin-top: -20px;
     font-family: "Lato";
     font-size: 14px;
     border: 4px solid #4A90E2;
     background: #4A90E2;
     border-radius: 3px;
     height: 25px;
+    color: #FFFFFF;
   }
   .premium,
   .home,
@@ -1206,10 +1238,10 @@ a:active {
     margin-left: 166px;
   }
   .home {
-    margin-left: 296px;
+    margin-left: 298px;
   }
   .grid-item-one {
-    background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
+    background-image: url(./all-images/images-item/image-item-1.png);
     background-size: 373px 560px;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -1225,16 +1257,16 @@ a:active {
     cursor: pointer;
   }
   .grid-item-two {
-    background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
+    background-image: url(./all-images/images-item/image-item-2.png);
   }
   .grid-item-three {
-    background-image: url(../First-project/all-images/images-item/Bitmap-3.png);
+    background-image: url(./all-images/images-item/image-item-3.png);
   }
   .grid-item-four {
-    background-image: url(../First-project/all-images/images-item/Bitmap-4.png);
-  }
+    background-image: url(./all-images/images-item/image-item-4.png);
+}
   .grid-item-five {
-    background-image: url(../First-project/all-images/images-item/Bitmap-5.png);
+    background-image: url(./all-images/images-item/image-item-5.png);
   }
   .vehicle {
     display: flex;
@@ -1365,19 +1397,19 @@ a:active {
     cursor: pointer;
   }
   .grid-article-one {
-    background-image: url(../First-project/all-images/images-article/Bitmap-1.png);
+    background-image: url(./all-images/images-article/image-article-1.png);
   }
   .grid-article-two {
-    background-image: url(../First-project/all-images/images-article/Bitmap-2.png);
+    background-image: url(./all-images/images-article/image-article-2.png);
   }
   .grid-article-three {
-    background-image: url(../First-project/all-images/images-article/Bitmap-3.png);
+    background-image: url(./all-images/images-article/image-article-3.png);
   }
   .grid-article-four {
-    background-image: url(../First-project/all-images/images-article/Bitmap-4.png);
+    background-image: url(./all-images/images-article/image-article-4.png);
   }
   .grid-article-five {
-    background-image: url(../First-project/all-images/images-article/Bitmap-5.png);
+    background-image: url(./all-images/images-article/image-article-5.png);
   }
   .grid-container-article {
     width: 100%;
@@ -1487,18 +1519,18 @@ a:active {
     cursor: pointer;
   }
   .grid-aside-one {
-    background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
+    background-image: url(./all-images/images-aside/image-aside-1.png);
   }
   .grid-aside-two {
-    background-image: url(../First-project/all-images/images-aside/Bitmap-2.png);
+    background-image: url(./all-images/images-aside/image-aside-2.png);
     margin-left: 25px;
   }
   .grid-aside-three {
-    background-image: url(../First-project/all-images/images-aside/Bitmap-3.png);
+    background-image: url(./all-images/images-aside/image-aside-3.png);
     margin-top: 64px;
   }
   .grid-aside-four {
-    background-image: url(../First-project/all-images/images-aside/Bitmap-4.png);
+    background-image: url(./all-images/images-aside/image-aside-4.png);
     margin-left: 25px;
     margin-top: 64px;
   }
@@ -1552,22 +1584,22 @@ a:active {
     cursor: pointer;
   }
   .instagram-one {
-    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
+    background-image: url(./all-images/images-instagram/image-instagram-1.png);
   }
   .instagram-two {
-    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 24.png);
+    background-image: url(./all-images/images-instagram/image-instagram-2.png);
   }
   .instagram-three {
-    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 30.png);
+    background-image: url(./all-images/images-instagram/image-instagram-3.png);
   }
   .instagram-four {
-    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 42.png);
+    background-image: url(./all-images/images-instagram/image-instagram-4.png);
   }
   .instagram-five {
-    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 43.png);
+    background-image: url(./all-images/images-instagram/image-instagram-5.png);
   }
   .instagram-six {
-    background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 44.png);
+    background-image: url(./all-images/images-instagram/image-instagram-6.png);
   }
   .grid-container-instagram {
     display: grid;
@@ -1588,7 +1620,7 @@ a:active {
     grid-row: 4;
   }
   .view-instagram {
-    background-image: url(../First-project/all-images/images-instagram/Combined\ Shape\ \(1\).png);
+    background-image: url(./all-images/images-instagram/image-instagram-7.png);
     background-repeat: no-repeat;
     background-position-x: 74px;
     background-position-y: 17px;
@@ -1767,6 +1799,18 @@ a:active {
   font-family: "PT Sans";
   border-radius: 3px;
 }
+.car-footer {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -3px;
+  font-family: "Lato";
+  font-size: 14px;
+  border: 4px solid #4A90E2;
+  background: #4A90E2;
+  border-radius: 3px;
+  height: 25px;
+  color: #FFFFFF;
+}
 .subscribe {
   top: -160px;
   right: -504px;
@@ -1896,7 +1940,7 @@ a:active {
 .icon-three,
 .icon-four,
 .icon-five {
-  background-image: url(../First-project/all-images/images-footer-icon/Rectangle.png);
+  background-image: url(./all-images/images-footer-icon/image-footer-icon-background.png);
   background-size: 34px 34px;
   border-radius: 3px;
   display: flex;
@@ -2067,19 +2111,42 @@ a:active {
   text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #FFFFFF;
 }
 a:focus {
   background: rgba(255, 255, 255, 0.8);
 }
-.home-footer:focus {
+.home-footer:hover,
+.recipes-footer:hover,
+.article-footer:hover,
+.contact-footer:hover,
+.purchase-footer:hover {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+}
+.home-footer:focus,
+.recipes-footer:focus,
+.article-footer:focus,
+.contact-footer:focus,
+.purchase-footer:focus
+.grid-article-one:focus {
   background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+}
+.home-footer:active,
+.recipes-footer:active,
+.article-footer:active,
+.contact-footer:active,
+.purchase-footer:active
+.grid-article-one:active {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
 }
 a:active {
   font-weight: bold;
   font-size: 14px;
   color: #FFFFFF;
-  text-decoration: underline;
+  border-bottom: 2px solid #FFFFFF;
   background: none;
 }
 .grid-article-one:hover .grid-bold-text {
@@ -2268,13 +2335,14 @@ html {
 }
 .car {
   display: flex;
-  margin-left: 9px;
-  margin-top: -3px;
+  margin-left: 62px;
+  margin-top: -20px;
   font-family: "Lato";
   font-size: 14px;
   border: 4px solid #4A90E2;
   background: #4A90E2;
   border-radius: 3px;
+  color: #FFFFFF;
 }
 .premium {
   font-family: "Lato";
@@ -2306,7 +2374,7 @@ html {
   margin-top: 6px;
 }
 .grid-item-one {
-  background-image: url(../First-project/all-images/images-item/Bitmap-1.png);
+  background-image: url(./all-images/images-item/image-item-1.png);
   background-size: 373px 560px;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -2322,16 +2390,16 @@ html {
   cursor: pointer;
 }
 .grid-item-two {
-  background-image: url(../First-project/all-images/images-item/Bitmap-2.png);
+  background-image: url(./all-images/images-item/image-item-2.png);
 }
 .grid-item-three {
-  background-image: url(../First-project/all-images/images-item/Bitmap-3.png);
+  background-image: url(./all-images/images-item/image-item-3.png);
 }
 .grid-item-four {
-  background-image: url(../First-project/all-images/images-item/Bitmap-4.png);
+  background-image: url(./all-images/images-item/image-item-4.png);
 }
 .grid-item-five {
-  background-image: url(../First-project/all-images/images-item/Bitmap-5.png);
+  background-image: url(./all-images/images-item/image-item-5.png);
 }
 .vehicle {
   display: flex;
@@ -2457,19 +2525,19 @@ html {
   cursor: pointer;
 }
 .grid-article-one {
-  background-image: url(../First-project/all-images/images-article-768px/Bitmap.png);
+  background-image: url(./all-images/images-article-768px/image-arcticle-768px-1.png);
 }
 .grid-article-two {
-  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(1\).png);
+  background-image: url(./all-images/images-article-768px/image-article-768px-2.png);
 }
 .grid-article-three {
-  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(2\).png);
+  background-image: url(./all-images/images-article-768px/image-article-768px-3.png);
 }
 .grid-article-four {
-  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(3\).png);
+  background-image: url(./all-images/images-article-768px/image-article-768px-4.png);
 }
 .grid-article-five {
-  background-image: url(../First-project/all-images/images-article-768px/Bitmap\ \(4\).png);
+  background-image: url(./all-images/images-article-768px/image-article-768px-5.png);
 }
 .grid-article-one,
 .grid-article-two,
@@ -2594,16 +2662,16 @@ html {
   margin-top: -930px;
 }
 .grid-aside-one {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-1.png);
+  background-image: url(./all-images/images-aside/image-aside-1.png);
 }
 .grid-aside-two {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-2.png);
+  background-image: url(./all-images/images-aside/image-aside-2.png);
 }
 .grid-aside-three {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-3.png);
+  background-image: url(./all-images/images-aside/image-aside-3.png);
 }
 .grid-aside-four {
-  background-image: url(../First-project/all-images/images-aside/Bitmap-4.png);
+  background-image: url(./all-images/images-aside/image-aside-4.png);
 }
 .popular-post {
   position: absolute;
@@ -2661,25 +2729,25 @@ html {
   grid-row: 4;
 }
 .instagram-one {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 23.png);
+  background-image: url(./all-images/images-instagram/image-instagram-1.png);
 }
 .instagram-two {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 24.png);
+  background-image: url(./all-images/images-instagram/image-instagram-2.png);
 }
 .instagram-three {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 30.png);
+  background-image: url(./all-images/images-instagram/image-instagram-3.png);
 }
 .instagram-four {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 42.png);
+  background-image: url(./all-images/images-instagram/image-instagram-4.png);
 }
 .instagram-five {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 43.png);
+  background-image: url(./all-images/images-instagram/image-instagram-5.png);
 }
 .instagram-six {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 44.png);
+  background-image: url(./all-images/images-instagram/image-instagram-6.png);
 }
 .instagram-seven {
-  background-image: url(../First-project/all-images/images-instagram/Rectangle\ Copy\ 9.png);
+  background-image: url(./all-images/images-instagram/image-instagram-7.png);
 }
 .grid-container-instagram {
   display: grid;
@@ -2700,7 +2768,7 @@ html {
   grid-row: 4;
 }
 .view-instagram {
-  background-image: url(../First-project/all-images/images-instagram/Combined\ Shape\ \(1\).png);
+  background-image: url(./all-images/images-instagram/image-instagram-7.png);
   background-repeat: no-repeat;
   background-position-x: 74px;
   background-position-y: 17px;
@@ -3004,7 +3072,7 @@ html {
 .icon-three,
 .icon-four,
 .icon-five {
-  background-image: url(../First-project/all-images/images-footer-icon/Rectangle.png);
+  background-image: url(./all-images/images-footer-icon/image-footer-icon-background.png);
   background-size: 34px 34px;
   border-radius: 3px;
   display: flex;
@@ -3069,7 +3137,6 @@ html {
   grid-template-columns: repeat(9, 50px);
   grid-template-rows: 50px;
   grid-gap: 10px;
-  justify-content: center;
 }
 .home-footer,
 .recipes-footer,
@@ -3081,14 +3148,13 @@ html {
   text-decoration: none;
   margin-top: 24px;
   grid-gap: 10px;
-  margin-left: -50px;
+  margin-left: 60px;
   height: 20px;
 }
 .home-footer {
   width: 37px;
   grid-row: 1;
   grid-column: 4;
-  margin-left: -40px;
 }
 .recipes-footer {
   width: 45px;
@@ -3099,7 +3165,6 @@ html {
   width: 43px;
   grid-row: 1;
   grid-column: 6;
-  margin-left: -46px;
 }
 .contact-footer {
   width: 45px;
@@ -3122,6 +3187,18 @@ html {
   width: 293px;
   height: 50px;
   font-weight: bold;
+}
+.car-footer {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -3px;
+  font-family: "Lato";
+  font-size: 14px;
+  border: 4px solid #4A90E2;
+  background: #4A90E2;
+  border-radius: 3px;
+  height: 25px;
+  color: #FFFFFF;
 }
 .black-block .all-right-reserved {
   display: flex;
@@ -3161,9 +3238,6 @@ html {
 .grid-item-five:hover .history {
   text-decoration: underline;
 }
-.business:hover .tags{
-  text-decoration: none;
-}
 .business:hover,
 .freelance:hover,
 .money:hover,
@@ -3183,21 +3257,30 @@ html {
 .monetize:hover {
   text-decoration: underline;
 }
-a:hover {
-  text-decoration: underline;
+.home-footer:hover,
+.recipes-footer:hover,
+.article-footer:hover,
+.contact-footer:hover,
+.purchase-footer:hover {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
 }
-a:focus {
+.home-footer:active,
+.recipes-footer:active,
+.article-footer:active,
+.contact-footer:active,
+.purchase-footer:active {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+  background-color: none;
+}
+.home-footer:focus,
+.recipes-footer:focus,
+.article-footer:focus,
+.contact-footer:focus,
+.purchase-footer:focus {
   background: rgba(255, 255, 255, 0.8);
-}
-.home-footer:focus {
-  background: rgba(255, 255, 255, 0.8);
-}
-a:active {
-  font-weight: bold;
-  font-size: 14px;
-  color: #FFFFFF;
-  text-decoration: underline;
-  background: none;
+  position: absolute;
 }
 .grid-article-one:hover .grid-bold-text {
   text-decoration: underline;
@@ -3234,6 +3317,10 @@ a:active {
   background: #232323;
   border: 2px dashed rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
+  border-radius: 3px;
+}
+.instagram-seven:active {
+  background: #0E0E0E;
   border-radius: 3px;
 }
 .text-first-image:hover {
