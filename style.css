@@ -927,8 +927,8 @@ li {
 .purchase-footer {
   grid-row: 1;
   grid-column: 5;
-}
-.photo-discription-one:hover {
+} 
+.grid-item-one:hover .photo-discription-one {
   width: 370px;
   height: 560px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -936,7 +936,10 @@ li {
   transition-duration: 0.5s;
   position: absolute;
 }
-.photo-discription:hover {
+.grid-item-two:hover .photo-discription,
+.grid-item-three:hover .photo-discription,
+.grid-item-four:hover .photo-discription,
+.grid-item-five:hover .photo-discription {
   width: 370px;
   height: 265px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -2057,7 +2060,7 @@ a:active {
   grid-row: 1;
   grid-column: 5;
 }
-.photo-discription-one:hover {
+.grid-item-one:hover .photo-discription-one {
   width: 373px;
   height: 560px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -2065,7 +2068,10 @@ a:active {
   transition-duration: 0.5s;
   position: absolute;
 }
-.photo-discription:hover {
+.grid-item-two:hover .photo-discription,
+.grid-item-three:hover .photo-discription,
+.grid-item-four:hover .photo-discription,
+.grid-item-five:hover .photo-discription {
   width: 370px;
   height: 265px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -2184,6 +2190,10 @@ a:active {
   background: #232323;
   border: 2px dashed rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
+  border-radius: 3px;
+}
+.instagram-seven:active {
+  background: #0E0E0E;
   border-radius: 3px;
 }
 .text-first-image:hover {
@@ -3207,7 +3217,7 @@ html {
   margin-left: 288px;
   color: white;
 }
-.photo-discription-one:hover {
+.grid-item-one:hover .photo-discription-one {
   width: 370px;
   height: 560px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -3215,7 +3225,10 @@ html {
   transition-duration: 0.5s;
   position: absolute;
 }
-.photo-discription:hover {
+.grid-item-two:hover .photo-discription,
+.grid-item-three:hover .photo-discription,
+.grid-item-four:hover .photo-discription,
+.grid-item-five:hover .photo-discription {
   width: 370px;
   height: 265px;
   background-color: rgba(0, 0, 0, 0.6);
